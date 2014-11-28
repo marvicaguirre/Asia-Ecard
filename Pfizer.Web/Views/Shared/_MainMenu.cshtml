@@ -1,0 +1,10 @@
+﻿@using Pfizer.Web.Code.Helpers.Menu
+@using Wizardsgroup.Core.Web.Helpers
+@using Wizardsgroup.Core.Web.Helpers.MenuHelper
+@using Pfizer.Domain.Infrastructure
+
+@{
+    var registeredSecurityModuleFunctions = RegisterModuleFunctionContainer.Instance.Container;
+}
+@(this.GenerateMenu(new MaintenanceMenu(registeredSecurityModuleFunctions), SecurityHelper.HasAccess))
+@(this.GenerateMenu(new SystemMenu(registeredSecurityModuleFunctions), SecurityHelper.HasAccess))

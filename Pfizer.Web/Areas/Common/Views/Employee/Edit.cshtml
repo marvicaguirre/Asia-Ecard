@@ -1,0 +1,65 @@
+﻿@using Pfizer.Domain.Constants;
+@using Wizardsgroup.Core.Web.Extensions;
+
+@model Pfizer.Web.Areas.Common.ViewModels.EmployeeViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.EmployeeId)
+
+        @Html.CustomLabelFor(model => model.LastName)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.LastName)
+        </div>
+
+        @Html.CustomLabelFor(model => model.FirstName)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.FirstName)
+        </div>
+
+        @Html.CustomLabelFor(model => model.MiddleName)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.MiddleName)
+        </div>
+
+        @Html.CustomLabelFor(model => model.CompanyId)
+        <div class="editor-field">
+            @Html.CustomComboBoxFor(model => model.CompanyId, EntityLookupConstant.Company)
+        </div>
+
+        @Html.CustomLabelFor(model => model.DepartmentId)
+        <div class="editor-field">
+            @Html.CustomComboBoxFor(model => model.DepartmentId, EntityLookupConstant.Department)
+        </div>
+        
+        @Html.CustomLabelFor(model => model.EmployeeTypeId)
+        <div class="editor-field">
+            @Html.CustomComboBoxFor(o => o.EmployeeTypeId, EntityLookupConstant.EmployeeType)
+        </div>
+
+        @Html.CustomLabelFor(model => model.TelephoneNo)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.TelephoneNo)
+        </div>
+
+        @Html.CustomLabelFor(model => model.MobileNo)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.MobileNo)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Email)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Email)
+        </div>
+
+        <div class="editor-label_noColon">
+        </div>
+        <div class="editor-field">
+            @Html.CheckBoxFor(model => model.IsSupervisor, new { @checked = "checked" }) Supervisor
+        </div>
+    </fieldset>
+}

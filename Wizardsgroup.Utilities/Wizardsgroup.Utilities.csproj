@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wizardsgroup.Utilities</RootNamespace>
+    <AssemblyName>Wizardsgroup.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AutoMapper.3.2.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AutoMapper.3.2.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EntityFluentFilter\EntityExpressionFilter.cs" />
+    <Compile Include="EntityFluentFilter\EntityFilter.cs" />
+    <Compile Include="EntityFluentFilter\EntityFluentFilter.cs" />
+    <Compile Include="EntityFluentFilter\ExpressionFilter\AbstractExpressionFilter.cs" />
+    <Compile Include="EntityFluentFilter\ExpressionFilter\AndAlsoExpressionFilter.cs" />
+    <Compile Include="EntityFluentFilter\ExpressionFilter\AndExpressionFilter.cs" />
+    <Compile Include="EntityFluentFilter\ExpressionFilter\ExpressionFilterParameterReplacerVisitor.cs" />
+    <Compile Include="EntityFluentFilter\ExpressionFilter\OrElseExpressionFilter.cs" />
+    <Compile Include="EntityFluentFilter\ExpressionFilter\OrExpressionFilter.cs" />
+    <Compile Include="EntityFluentFilter\FilterExpressionNode.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntityCreatedArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntityCreatingArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntityDeletedArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntityDeletingArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntitySavedArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntitySavingArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntityUpdatedArgs.cs" />
+    <Compile Include="EventAggregator\EventArguments\EntityUpdatingArgs.cs" />
+    <Compile Include="EventAggregator\SimpleEventAggregator.cs" />
+    <Compile Include="Extensions\BetweenDateExtension.cs" />
+    <Compile Include="Extensions\BetweenExtension.cs" />
+    <Compile Include="Extensions\ConvertTo.cs" />
+    <Compile Include="Extensions\CustomIterator.cs" />
+    <Compile Include="Extensions\GuidExtension.cs" />
+    <Compile Include="Extensions\DateExtension.cs" />
+    <Compile Include="Extensions\EnumGuard.cs" />
+    <Compile Include="Extensions\ForEachExtension.cs" />
+    <Compile Include="Extensions\GuardEnumExtension.cs" />
+    <Compile Include="Extensions\GuardExtension.cs" />
+    <Compile Include="Extensions\ICustomIterator.cs" />
+    <Compile Include="Extensions\IEnumGuard.cs" />
+    <Compile Include="Extensions\ILoopCondition.cs" />
+    <Compile Include="Extensions\LoopCondition.cs" />
+    <Compile Include="Extensions\ModelMapperExtension.cs" />
+    <Compile Include="Extensions\DynamicExtension.cs" />
+    <Compile Include="Extensions\PropertySetting.cs" />
+    <Compile Include="Extensions\StringExtension.cs" />
+    <Compile Include="Helpers\EmailHelper.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Helpers\PasswordHelper.cs" />
+    <Compile Include="Helpers\ReflectionHelper.cs" />
+    <Compile Include="Helpers\IReflection.cs" />
+    <Compile Include="Helpers\Singleton.cs" />
+    <Compile Include="Helpers\SMSHelper.cs" />
+    <Compile Include="Helpers\UserTracker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\BasicFunction.cs" />
+    <Compile Include="Security\FunctionHelper.cs" />
+    <Compile Include="Security\FunctionRegistrator.cs" />
+    <Compile Include="Security\GroupModuleFunctionRegistrator.cs" />
+    <Compile Include="Security\IBasicFunctionRegistrator.cs" />
+    <Compile Include="Security\IFunctionHelper.cs" />
+    <Compile Include="Security\IFunctionRegistrator.cs" />
+    <Compile Include="Security\IGroupModuleFunctionRegistrator.cs" />
+    <Compile Include="Security\IModuleFunctionCollectionContainer.cs" />
+    <Compile Include="Security\IModuleFunctionContainer.cs" />
+    <Compile Include="Security\IModuleBasicFunctionRegistrator.cs" />
+    <Compile Include="Security\IModuleFunctionRegistrator.cs" />
+    <Compile Include="Security\IModuleRegistrator.cs" />
+    <Compile Include="Security\IModuleSpecialFunctionRegistrator.cs" />
+    <Compile Include="Security\ISecurityRegistrator.cs" />
+    <Compile Include="Security\ISpecialFunctionRegistrator.cs" />
+    <Compile Include="Security\ISubGroupModuleRegistrator.cs" />
+    <Compile Include="Security\ModuleBasicFunctionRegistrator.cs" />
+    <Compile Include="Security\ModuleFunctionContainer.cs" />
+    <Compile Include="Security\ModuleRegistrator.cs" />
+    <Compile Include="Security\ModuleSpecialFunctionRegistrator.cs" />
+    <Compile Include="Security\SecurityFunctionInfo.cs" />
+    <Compile Include="Security\SecurityModuleRegistrator.cs" />
+    <Compile Include="Security\Function.cs" />
+    <Compile Include="Security\SubgroupModuleRegistrator.cs" />
+    <Compile Include="ServiceLocator\CustomServiceLocator.cs" />
+    <Compile Include="ServiceLocator\FluentServiceRegistrator.cs" />
+    <Compile Include="ServiceLocator\ICustomServiceContainer.cs" />
+    <Compile Include="ServiceLocator\ICustomServiceLocator.cs" />
+    <Compile Include="ServiceLocator\IFluentServiceRegistrator.cs" />
+    <Compile Include="ServiceLocator\IServiceContainer.cs" />
+    <Compile Include="ServiceLocator\IServiceRegistrator.cs" />
+    <Compile Include="ServiceLocator\ServiceContainer.cs" />
+    <Compile Include="ServiceLocator\ServiceRegistrator.cs" />
+    <Compile Include="ServiceLocator\ServiceRegistratorVisitor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wizardsgroup.Core\Wizardsgroup.Core.csproj">
+      <Project>{FDF03BCD-369F-45C5-8805-287D0823030B}</Project>
+      <Name>Wizardsgroup.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

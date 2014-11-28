@@ -1,0 +1,28 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.SystemSettingViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()    
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.SystemSettingId)
+        @Html.HiddenFor(model => model.SettingName)
+        @Html.HiddenFor(model => model.DataType)        
+
+            @Html.CustomLabelFor(model => Model.SettingName)
+        <div class="editor-field">
+            @Html.CustomReadOnlyTextBoxFor(model => model.SettingName)            
+        </div>
+        
+        @Html.CustomLabelFor(Model => Model.SettingValue)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.SettingValue)
+        </div>
+            @Html.CustomLabelFor(Model => Model.DataType)
+        <div class="editor-field">
+            @Html.CustomReadOnlyTextBoxFor(model => model.DataType)
+        </div>
+    </fieldset>
+}

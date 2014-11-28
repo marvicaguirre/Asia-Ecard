@@ -1,0 +1,34 @@
+﻿@using Pfizer.Domain.Constants
+@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.ConversionFactorViewModel
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.DosageId)
+        @Html.CustomLabelFor(model => model.ProductName)
+        <div class="editor-field">
+            @Model.ProductName
+        </div>
+        @Html.CustomLabelFor(model => model.DosageId)
+        <div class="editor-field">
+            @Model.DosageForm;
+        </div>
+        @Html.CustomLabelFor(model => model.PfizerCode)
+        <div class="editor-field">
+            @*@Html.CustomComboBoxFor(model => model.PfizerCode, EntityLookupConstant.PfizerCode)*@
+        </div>
+        @Html.CustomLabelFor(model => model.UnitOfMeasureId)
+        <div class="editor-field">
+            @Html.CustomComboBoxFor(model => model.UnitOfMeasureId, EntityLookupConstant.UnitOfMeasure)
+        </div>
+        @Html.CustomLabelFor(model => model.Factor)
+        <div class="editor-field">
+            @Html.CustomNumberOnlyTextBoxFor(model => model.Factor)
+        </div>
+    </fieldset>
+}

@@ -1,0 +1,48 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@{
+    string parentId = "";
+    if (ViewBag.ParentId != null)
+    {
+        parentId = ViewBag.ParentId.ToString();
+    }
+    String grid = "ProgramPerCardTypeGrid";
+    String controller = "ProgramPerCardType";
+}
+<div id="divMaster" controltype="accordion">
+    @*<h3><span class="ui-dialog-title" id="ui-dialog-title-1">@ViewBag.Title</span></h3>      *@
+    <div class="container">
+        <div class="row row-padding-top-10 no-margin">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        @*<h3>@ViewBag.Title</h3>*@
+                        @ViewBag.CardTypeName - @ViewBag.Title
+                    </div>
+                    <div class="panel-body">
+                        <div class="row row-padding-top-10">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                @Html.Hidden("ProgramPerCardTypeId",parentId)
+                                @Html.CustomGrid(grid, "GetRecords", controller, null, null, "ProgramPerCardTypeId")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script type="text/javascript">
+
+        var icons = {
+            header: "ui-icon-circle-arrow-e",
+            activeHeader: "ui-icon-circle-arrow-s"
+        };
+        //$("div[controltype=accordion] h3 ").css({ 'padding-left': '22px', 'font-size': '16px' });
+        $("div[controltype=accordion]").css({ 'padding-top': '5px' }).accordion({
+            collapsible: true,
+            heightStyle: "content",
+            clearStyle: true,
+            icons: icons
+        });
+    </script>*@

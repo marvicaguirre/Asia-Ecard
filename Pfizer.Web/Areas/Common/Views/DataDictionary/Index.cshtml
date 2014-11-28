@@ -1,0 +1,31 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@{
+    const string gridName = "DataDictionaryGrid";
+    const string contoller = "DataDictionary";
+}
+<div id="divMaster">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+        <div class="panel">
+            <div class="panel-heading">
+                @ViewBag.Title
+            </div>
+            <div class="panel-body">
+                <div class="row row-padding-top-10">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        @Html.CustomGrid(gridName, "GetRecords", contoller, null, null)
+                    </div>
+                </div>
+                <div class="row row-padding-top-10">
+                    <div class="col-xs-1 col-md-1 col-lg-1">                        
+                        @Html.CustomButtonEntry("Add", "Create", contoller, "Create New Dictionary", 300, 400, 100, gridName)
+                    </div>
+                    <div class="col-xs-1 col-md-1 col-lg-1">
+                        @Html.CustomButtonDelete("Delete", "ConfirmItems", "DeleteItems", contoller, "Delete Dictionary(s)", null, null, 100, gridName)
+                    </div>
+                    <div class="col-xs-10 col-md-10 col-lg-10">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

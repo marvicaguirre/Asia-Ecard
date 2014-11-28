@@ -1,0 +1,5 @@
+C:\Projects3\MedicardProject\MVC5\RuleEngine\bin\Release\RuleEngine.dll
+C:\Projects3\MedicardProject\MVC5\RuleEngine\bin\Release\RuleEngine.pdb
+C:\Projects3\MedicardProject\MVC5\RuleEngine\obj\Release\RuleEngine.csprojResolveAssemblyReference.cache
+C:\Projects3\MedicardProject\MVC5\RuleEngine\obj\Release\RuleEngine.dll
+C:\Projects3\MedicardProject\MVC5\RuleEngine\obj\Release\RuleEngine.pdb

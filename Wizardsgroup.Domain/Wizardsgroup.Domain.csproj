@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3292097-6ABB-4A13-AAEF-138782D6D5D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wizardsgroup.Domain</RootNamespace>
+    <AssemblyName>Wizardsgroup.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\ColumnDescription.cs" />
+    <Compile Include="Attributes\TableDescription.cs" />
+    <Compile Include="Containers\CentralFunctionEx.cs" />
+    <Compile Include="Interfaces\IMultiSelectLookupValueField.cs" />
+    <Compile Include="Containers\MultiSelectLookup.cs" />
+    <Compile Include="Containers\PagingQueryResult.cs" />
+    <Compile Include="Interfaces\ILookupFunction.cs" />
+    <Compile Include="Interfaces\ILookupValueField.cs" />
+    <Compile Include="Interfaces\IMultiSelectLookup.cs" />
+    <Compile Include="Models\AbstractEmployee.cs" />
+    <Compile Include="Base\AbstractBaseModel.cs" />
+    <Compile Include="Constants\CrudTransactionResultConstant.cs" />
+    <Compile Include="Constants\SqlErrorConstant.cs" />
+    <Compile Include="Containers\EntityValidationResult.cs" />
+    <Compile Include="Models\AuditLog.cs" />
+    <Compile Include="Models\EmployeeClassification.cs" />
+    <Compile Include="Enumerations\GridCellType.cs" />
+    <Compile Include="Enumerations\RecordStatus.cs" />
+    <Compile Include="Interfaces\IActiveRecord.cs" />
+    <Compile Include="Interfaces\ICustomLookup.cs" />
+    <Compile Include="Interfaces\IEntityValidator.cs" />
+    <Compile Include="Interfaces\IViewModelDisplayNameCollection.cs" />
+    <Compile Include="Interfaces\IViewModelMetadataAttributeOverrider.cs" />
+    <Compile Include="Lookup\LookupData.cs" />
+    <Compile Include="Lookup\LookupParameter.cs" />
+    <Compile Include="Models\AbstractCompany.cs" />
+    <Compile Include="Models\CentralFunction.cs" />
+    <Compile Include="Models\CentralModule.cs" />
+    <Compile Include="Models\CompanyClassification.cs" />
+    <Compile Include="Models\DataDictionary.cs" />
+    <Compile Include="Models\GridSetting.cs" />
+    <Compile Include="Models\RuleDatastore.cs" />
+    <Compile Include="Models\AbstractUser.cs" />
+    <Compile Include="Models\AbstractUserGroup.cs" />
+    <Compile Include="Models\UserGroupFunction.cs" />
+    <Compile Include="Models\AbstractUserGroupMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wizardsgroup.Core\Wizardsgroup.Core.csproj">
+      <Project>{FDF03BCD-369F-45C5-8805-287D0823030B}</Project>
+      <Name>Wizardsgroup.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

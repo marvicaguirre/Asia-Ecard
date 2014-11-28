@@ -1,0 +1,15 @@
+Isla Spark 01/28/2014 14:18
+1) Data entry of Tank Reading of customer are already cascaded and will be entered in the public site.
+2) Create clean test site. (production same as production, clean slate)
+3) Create production site.
+4) Parallel live.
+5) *Product check in source plant for delivery container product. not emailed, to be checked
+6) *Check capacity in assignment in Generate schedule. emailed, to be checked ---- confirmed issue
+7) Update kph from 25 to 50 settings. TODO
+8) *30 orders, generate schedule causes error or time-out. emailed
+9) Netcast, Sms contract signed for production. Check account for testing. not emailed
+10) *ETA update dashboard in hauler, scheduler, to be checked.
+11) *Delivery change driver functionality, to be checked.
+12) *Scheduling redirection functionality, for clarification. to be checked.
+13) FS add details?.
+14) Schedule of activities from isla. (rollout), to be emailed by Raymund.

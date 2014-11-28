@@ -1,0 +1,32 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.DataDictionaryViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+
+    <fieldset>
+        <legend></legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Model)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Model)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FieldName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FieldName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FieldDisplayText)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FieldDisplayText)
+        </div>
+    </fieldset>
+}

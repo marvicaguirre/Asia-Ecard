@@ -1,0 +1,13 @@
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\uMedicard.Domain.dll
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\uMedicard.Domain.pdb
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\AutoMapper.dll
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\bin\Debug\AutoMapper.xml
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\obj\Debug\uMedicard.Domain.csprojResolveAssemblyReference.cache
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\obj\Debug\uMedicard.Domain.dll
+C:\Projects3\MedicardProject\MVC5\MIMS.Domain\obj\Debug\uMedicard.Domain.pdb

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0CE54FB6-1F97-4D93-B81C-AAE50413E603}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pfizer.Service</RootNamespace>
+    <AssemblyName>Pfizer.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentValidation">
+      <HintPath>..\packages\FluentValidation.5.1.0.0\lib\Net40\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation.Mvc">
+      <HintPath>..\packages\FluentValidation.MVC5.5.1.0.0\lib\Net45\FluentValidation.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardPrefixService.cs" />
+    <Compile Include="CardTypeService.cs" />
+    <Compile Include="ConversionFactoreService.cs" />
+    <Compile Include="DosageService.cs" />
+    <Compile Include="IUserGroupFunctionService.cs" />
+    <Compile Include="IProgramProductMappingService.cs" />
+    <Compile Include="IUserGroupMapService.cs" />
+    <Compile Include="IUserService.cs" />
+    <Compile Include="Lookup\CardTypeLookup.cs" />
+    <Compile Include="Lookup\PfizerCodeLookup.cs" />
+    <Compile Include="Lookup\UnitOfMeasureLookup.cs" />
+    <Compile Include="ProductService.cs" />
+    <Compile Include="ProgramProductMappingService.cs" />
+    <Compile Include="ProgramService.cs" />
+    <Compile Include="ClassService.cs" />
+    <Compile Include="EmployeeTypeService.cs" />
+    <Compile Include="Lookup\DepartmentLookup.cs" />
+    <Compile Include="Lookup\EmployeeTypeLookup.cs" />
+    <Compile Include="ActivityNotificationService.cs" />
+    <Compile Include="Helper\AccountNotificationHelper.cs" />
+    <Compile Include="Helper\SystemMessageHelper.cs" />
+    <Compile Include="NotificationTypeService.cs" />
+    <Compile Include="SalesRetailPriceService.cs" />
+    <Compile Include="Subscribers\ProductIdGenerationSubcriber.cs" />
+    <Compile Include="SystemMessageService.cs" />
+    <Compile Include="CentralFunctionService.cs" />
+    <Compile Include="CentralModuleService.cs" />
+    <Compile Include="CompanyService.cs" />
+    <Compile Include="DepartmentService.cs" />
+    <Compile Include="EmployeeService.cs" />
+    <Compile Include="Helper\ApprovalProcessWorkflowNotificationHelper.cs" />
+    <Compile Include="Helper\ISystemSettingHelper.cs" />
+    <Compile Include="Helper\NotificationHelper.cs" />
+    <Compile Include="Helper\SystemSettingHelper.cs" />
+    <Compile Include="Lookup\CompanyLookup.cs" />
+    <Compile Include="Lookup\EmployeeLookup.cs" />
+    <Compile Include="Lookup\EmployeeSecondLevelSupervisorLookup.cs" />
+    <Compile Include="Lookup\EmployeeSupervisorLookup.cs" />
+    <Compile Include="Lookup\UserGroupLookup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemSettingService.cs" />
+    <Compile Include="UnitOfMeasureService.cs" />
+    <Compile Include="UserGroupFunctionService.cs" />
+    <Compile Include="UserGroupMapService.cs" />
+    <Compile Include="UserGroupService.cs" />
+    <Compile Include="UserService.cs" />
+    <Compile Include="Validators\ModelViewValidator\CardTypePrefixValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\CardTypeValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\ProgramValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\ClassValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\ConversionFactorValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\DosageValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\LoginValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\ProductValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\SalesRetailPriceValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\SystemMessageValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\DepartmentValidators.cs" />
+    <Compile Include="Validators\ModelViewValidator\EmployeeValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\SystemSettingValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\UnitOfMeasureValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\UserGroupValidator.cs" />
+    <Compile Include="Validators\ModelViewValidator\UserValidator.cs" />
+    <Compile Include="Validators\XSSValidatorExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pfizer.Domain\Pfizer.Domain.csproj">
+      <Project>{49c429a9-4066-4615-886c-2a273847f213}</Project>
+      <Name>Pfizer.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Domain\Wizardsgroup.Domain.csproj">
+      <Project>{e3292097-6abb-4a13-aaef-138782d6d5d4}</Project>
+      <Name>Wizardsgroup.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Service\Wizardsgroup.Service.csproj">
+      <Project>{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A}</Project>
+      <Name>Wizardsgroup.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Utilities\Wizardsgroup.Utilities.csproj">
+      <Project>{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}</Project>
+      <Name>Wizardsgroup.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RuleEngine\RuleEngine.csproj">
+      <Project>{4cbe4aa6-1e4e-4943-8611-4a0a495076fe}</Project>
+      <Name>RuleEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Core\Wizardsgroup.Core.csproj">
+      <Project>{FDF03BCD-369F-45C5-8805-287D0823030B}</Project>
+      <Name>Wizardsgroup.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Specification\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

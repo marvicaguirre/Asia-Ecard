@@ -1,0 +1,74 @@
+6:57:02 PM : 6:57:02 PM : 'ViewTemplateType' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:57:02 PM : 6:57:02 PM : 'ViewTemplateType' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:57:02 PM : 6:57:02 PM : Possible Configuration Issue: Module name is missing from function 'ViewTemplateType'
+
+6:57:02 PM : 6:57:02 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:57:02 PM : 6:57:02 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:57:03 PM : 6:57:03 PM : Possible Configuration Issue: Module name is missing from function 'Gender'
+
+6:57:06 PM : 6:57:06 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:57:06 PM : 6:57:06 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:59:17 PM : 6:59:17 PM : 'CreateUserGroup' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:59:17 PM : 6:59:17 PM : UserGroup's 'Create' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+6:59:17 PM : 6:59:17 PM : 'ConfirmItemsUserGroup' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:59:17 PM : 6:59:17 PM : UserGroup's 'ConfirmItems' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+6:59:18 PM : 6:59:18 PM : !!! Function Name ('UserGroup':'EditUserGroup') not found for b0739188-e6f2-e311-81b1-ec7f33c863ed user!
+
+6:59:21 PM : 6:59:21 PM : 'ConfirmItemsUserGroupFunction' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:59:21 PM : 6:59:21 PM : UserGroupFunction's 'ConfirmItems' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+6:59:21 PM : 6:59:21 PM : 'AssignGroupFunctionUserGroupFunction' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+6:59:21 PM : 6:59:21 PM : UserGroupFunction's 'AssignGroupFunction' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+7:21:22 PM : 7:21:22 PM : 'ViewTemplateType' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:22 PM : 7:21:22 PM : 'ViewTemplateType' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:22 PM : 7:21:22 PM : Possible Configuration Issue: Module name is missing from function 'ViewTemplateType'
+
+7:21:22 PM : 7:21:22 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:22 PM : 7:21:22 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:23 PM : 7:21:23 PM : Possible Configuration Issue: Module name is missing from function 'Gender'
+
+7:21:27 PM : 7:21:27 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:27 PM : 7:21:27 PM : 'Gender' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:43 PM : 7:21:43 PM : 'ConfirmItemsUser' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:43 PM : 7:21:43 PM : User's 'ConfirmItems' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+7:21:48 PM : 7:21:48 PM : 'ConfirmItemsUserGroupMap' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:48 PM : 7:21:48 PM : UserGroupMap's 'ConfirmItems' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+7:21:48 PM : 7:21:48 PM : 'AssignUserGroupUserGroupMap' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:21:48 PM : 7:21:48 PM : UserGroupMap's 'AssignUserGroup' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+7:22:01 PM : 7:22:01 PM : 'CreateUserGroup' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:22:01 PM : 7:22:01 PM : UserGroup's 'Create' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+7:22:01 PM : 7:22:01 PM : 'ConfirmItemsUserGroup' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:22:01 PM : 7:22:01 PM : UserGroup's 'ConfirmItems' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+
+7:22:05 PM : 7:22:05 PM : 'ConfirmItemsUserGroupFunction' is missing from the list of known system functions. This needs to be added! Please go to Domain.Infrastructure and add entries to registrator.cs file
+
+7:22:05 PM : 7:22:05 PM : UserGroupFunction's 'ConfirmItems' function not found in the list of allowed functions! Please reseed your database in case you haven't yet.
+

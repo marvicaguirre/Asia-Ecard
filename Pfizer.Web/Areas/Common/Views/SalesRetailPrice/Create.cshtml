@@ -1,0 +1,48 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.SalesRetailPriceViewModel
+
+@{
+    int parentId;
+    //int.TryParse(ViewBag.DosageId.ToString(), out parentId);
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+                @Html.HiddenFor(model => model.DosageId)
+        @Html.HiddenFor(model => model.ProductId)
+        @Html.HiddenFor(model => model.SalesRetailPriceId)
+        
+        @Html.CustomLabelFor(model => model.ProductName)
+
+        <div class="editor-field">
+            @Model.ProductName
+        </div>
+
+        @Html.CustomLabelFor(model => model.DosageForm)
+        <div class="editor-field">
+            @Model.DosageForm
+        </div>
+
+        @Html.CustomLabelFor(model => model.PriceTypeName)
+        <div class="editor-field">
+            @Model.PriceTypeName
+        </div>
+
+        @Html.CustomLabelFor(model => model.From)
+        <div class="editor-field">
+            @Html.CustomDateTextBoxFor(model => model.From)
+        </div>
+        @Html.CustomLabelFor(model => model.To)
+        <div class="editor-field">
+            @Html.CustomDateTextBoxFor(model => model.To)
+        </div>
+        @Html.CustomLabelFor(model => model.Price)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Price)
+        </div>
+    </fieldset>
+}

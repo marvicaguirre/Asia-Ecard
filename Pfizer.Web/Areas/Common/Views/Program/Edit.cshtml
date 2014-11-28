@@ -1,0 +1,33 @@
+﻿@using Pfizer.Domain.Constants
+@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.ProgramViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.ProgramId)
+
+        @Html.CustomLabelFor(model => model.CardTypeId)
+        <div class="editor-field">
+            @Html.CustomComboBoxFor(o => o.CardTypeId, EntityLookupConstant.CardType)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Name, 250)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Description)
+        <div class="editor-field">
+            @Html.CustomTextAreaBoxFor(model => model.Description, 1000)
+        </div>
+
+        @Html.CustomLabelFor(model => model.VendorCode)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.VendorCode, 250)
+        </div>
+    </fieldset>
+}

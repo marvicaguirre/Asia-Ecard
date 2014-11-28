@@ -1,0 +1,58 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@using Pfizer.Domain.Constants
+@using Wizardsgroup.Utilities.Extensions
+@{
+    const string gridName = "UserGroupFunctionGrid";
+    const string controller = "UserGroupFunction";
+    string parentId = "";
+    if(ViewBag.ParentId != null)
+    {
+        parentId = ViewBag.ParentId.ToString();
+    }
+}
+<div id="divMaster" controltype="accordion">    
+    <div class="container">
+        <div class="row row-padding-top-10 no-margin">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        @*<h3>@ViewBag.Title</h3>*@
+                        @ViewBag.Title
+                    </div>
+                    <div class="panel-body">
+                        <div class="row row-padding-top-10">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                @Html.CustomGrid(gridName, "GetRecords", controller,null,null,ParameterKeyConstant.ParentId)
+                            </div>
+                        </div>
+                        <div class="row row-padding-top-10">
+                            <div class="col-xs-1 col-md-1 col-lg-1">                                
+                                @(Html.Wizardsgroup()
+                                          .ButtonFor("Assign")
+                                          .CustomModal(button=>button.GridName(gridName).Width(100))
+                                          .Action("AssignGroupFunction",controller)
+                                          .Modal(modal=>modal.Title("Group Function Assignment").Width(1050).Height(650))
+                                          .Route(new {id = parentId.ToInteger()})
+                                          .Render())
+                            </div>
+                            <div class="col-xs-1 col-md-1 col-lg-1">                                
+                                @(Html.Wizardsgroup()
+                                          .ButtonFor("Delete")
+                                          .Delete(button => button.GridName(gridName))
+                                          .Action(action => action.Controller(controller).Confirm("ConfirmItems").Action("DeleteItems"))
+                                          .SelectionMode(SelectionMode.Multiple)
+                                          .Modal(modal => modal.Height(350).Width(500).Title("Delete Function(s)"))
+                                          .Render())
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

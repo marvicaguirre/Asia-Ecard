@@ -1,0 +1,13 @@
+﻿<div>@ViewBag.WindowTitle</div>
+@Html.AntiForgeryToken()
+@{Html.RenderPartial("_DualListboxMover");}
+<script type="text/javascript">    
+    var txtLeft = '@ViewBag.LeftLabel';
+    var textRight = '@ViewBag.RightLabel';
+    var parentValue = '@ViewBag.SourceId';
+    assignUrl = '@ViewBag.Action';
+        
+    setAssignButton(parentValue);
+    $('#titleLeft').text(txtLeft);
+    $('#titleRight').text(textRight);
+</script>

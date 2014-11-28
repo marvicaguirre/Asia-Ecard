@@ -1,0 +1,160 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{9DAC17E2-9208-48F7-BDA4-B4D9E191852A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Service", "2-Service", "{6BA1E13D-088D-45D7-9419-AC33F7B1D1C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Repository", "3-Repository", "{3598FBA3-8C1B-4A1D-A848-A99F6EA544CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-UI", "4-UI", "{1998EFE5-46AB-4E0A-A658-80B17EB8E304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pfizer.Domain", "Pfizer.Domain\Pfizer.Domain.csproj", "{49C429A9-4066-4615-886C-2A273847F213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pfizer.Service", "Pfizer.Service\Pfizer.Service.csproj", "{0CE54FB6-1F97-4D93-B81C-AAE50413E603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pfizer.Repository", "Pfizer.Repository\Pfizer.Repository.csproj", "{36BB798C-5150-4400-81B7-773B61D51F22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Utilities", "0-Utilities", "{2FA338BA-728C-4D56-9967-C1B9661F8D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizardsgroup.Utilities", "Wizardsgroup.Utilities\Wizardsgroup.Utilities.csproj", "{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleEngine", "RuleEngine\RuleEngine.csproj", "{4CBE4AA6-1E4E-4943-8611-4A0A495076FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Core", "0-Core", "{5CEAE8AE-5B4C-46C9-B0DA-B456C406EA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizardsgroup.Core", "Wizardsgroup.Core\Wizardsgroup.Core.csproj", "{FDF03BCD-369F-45C5-8805-287D0823030B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizardsgroup.Core.Web", "Wizardsgroup.Core.Web\Wizardsgroup.Core.Web.csproj", "{55CB1B2C-13B0-4566-AA97-B847C111C69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizardsgroup.Repository", "Wizardsgroup.Repository\Wizardsgroup.Repository.csproj", "{2E17390C-9D5A-4209-94F0-F665FE1876A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizardsgroup.Domain", "Wizardsgroup.Domain\Wizardsgroup.Domain.csproj", "{E3292097-6ABB-4A13-AAEF-138782D6D5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizardsgroup.Service", "Wizardsgroup.Service\Wizardsgroup.Service.csproj", "{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pfizer.Web", "Pfizer.Web\Pfizer.Web.csproj", "{F0EF124D-2476-4F05-9AF2-CF68EC05C927}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wizardsgroupincpfizer.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Pfizer.Domain\\Pfizer.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = Pfizer.sln
+		SccProjectName1 = Pfizer.Domain
+		SccLocalPath1 = Pfizer.Domain
+		SccProjectUniqueName2 = Pfizer.Repository\\Pfizer.Repository.csproj
+		SccProjectTopLevelParentUniqueName2 = Pfizer.sln
+		SccProjectName2 = Pfizer.Repository
+		SccLocalPath2 = Pfizer.Repository
+		SccProjectUniqueName3 = Pfizer.Service\\Pfizer.Service.csproj
+		SccProjectTopLevelParentUniqueName3 = Pfizer.sln
+		SccProjectName3 = Pfizer.Service
+		SccLocalPath3 = Pfizer.Service
+		SccProjectUniqueName4 = Pfizer.Web\\Pfizer.Web.csproj
+		SccProjectTopLevelParentUniqueName4 = Pfizer.sln
+		SccProjectName4 = Pfizer.Web
+		SccLocalPath4 = Pfizer.Web
+		SccProjectUniqueName5 = RuleEngine\\RuleEngine.csproj
+		SccProjectTopLevelParentUniqueName5 = Pfizer.sln
+		SccProjectName5 = RuleEngine
+		SccLocalPath5 = RuleEngine
+		SccProjectUniqueName6 = Wizardsgroup.Core.Web\\Wizardsgroup.Core.Web.csproj
+		SccProjectTopLevelParentUniqueName6 = Pfizer.sln
+		SccProjectName6 = Wizardsgroup.Core.Web
+		SccLocalPath6 = Wizardsgroup.Core.Web
+		SccProjectUniqueName7 = Wizardsgroup.Core\\Wizardsgroup.Core.csproj
+		SccProjectTopLevelParentUniqueName7 = Pfizer.sln
+		SccProjectName7 = Wizardsgroup.Core
+		SccLocalPath7 = Wizardsgroup.Core
+		SccProjectUniqueName8 = Wizardsgroup.Domain\\Wizardsgroup.Domain.csproj
+		SccProjectTopLevelParentUniqueName8 = Pfizer.sln
+		SccProjectName8 = Wizardsgroup.Domain
+		SccLocalPath8 = Wizardsgroup.Domain
+		SccProjectUniqueName9 = Wizardsgroup.Repository\\Wizardsgroup.Repository.csproj
+		SccProjectTopLevelParentUniqueName9 = Pfizer.sln
+		SccProjectName9 = Wizardsgroup.Repository
+		SccLocalPath9 = Wizardsgroup.Repository
+		SccProjectUniqueName10 = Wizardsgroup.Service\\Wizardsgroup.Service.csproj
+		SccProjectTopLevelParentUniqueName10 = Pfizer.sln
+		SccProjectName10 = Wizardsgroup.Service
+		SccLocalPath10 = Wizardsgroup.Service
+		SccProjectUniqueName11 = Wizardsgroup.Utilities\\Wizardsgroup.Utilities.csproj
+		SccProjectTopLevelParentUniqueName11 = Pfizer.sln
+		SccProjectName11 = Wizardsgroup.Utilities
+		SccLocalPath11 = Wizardsgroup.Utilities
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C429A9-4066-4615-886C-2A273847F213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C429A9-4066-4615-886C-2A273847F213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C429A9-4066-4615-886C-2A273847F213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C429A9-4066-4615-886C-2A273847F213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE54FB6-1F97-4D93-B81C-AAE50413E603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE54FB6-1F97-4D93-B81C-AAE50413E603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE54FB6-1F97-4D93-B81C-AAE50413E603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE54FB6-1F97-4D93-B81C-AAE50413E603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BB798C-5150-4400-81B7-773B61D51F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BB798C-5150-4400-81B7-773B61D51F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BB798C-5150-4400-81B7-773B61D51F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BB798C-5150-4400-81B7-773B61D51F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBE4AA6-1E4E-4943-8611-4A0A495076FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBE4AA6-1E4E-4943-8611-4A0A495076FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBE4AA6-1E4E-4943-8611-4A0A495076FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBE4AA6-1E4E-4943-8611-4A0A495076FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF03BCD-369F-45C5-8805-287D0823030B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF03BCD-369F-45C5-8805-287D0823030B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF03BCD-369F-45C5-8805-287D0823030B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF03BCD-369F-45C5-8805-287D0823030B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CB1B2C-13B0-4566-AA97-B847C111C69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CB1B2C-13B0-4566-AA97-B847C111C69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CB1B2C-13B0-4566-AA97-B847C111C69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CB1B2C-13B0-4566-AA97-B847C111C69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E17390C-9D5A-4209-94F0-F665FE1876A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E17390C-9D5A-4209-94F0-F665FE1876A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E17390C-9D5A-4209-94F0-F665FE1876A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E17390C-9D5A-4209-94F0-F665FE1876A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3292097-6ABB-4A13-AAEF-138782D6D5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3292097-6ABB-4A13-AAEF-138782D6D5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3292097-6ABB-4A13-AAEF-138782D6D5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3292097-6ABB-4A13-AAEF-138782D6D5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EF124D-2476-4F05-9AF2-CF68EC05C927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EF124D-2476-4F05-9AF2-CF68EC05C927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EF124D-2476-4F05-9AF2-CF68EC05C927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EF124D-2476-4F05-9AF2-CF68EC05C927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49C429A9-4066-4615-886C-2A273847F213} = {9DAC17E2-9208-48F7-BDA4-B4D9E191852A}
+		{E3292097-6ABB-4A13-AAEF-138782D6D5D4} = {9DAC17E2-9208-48F7-BDA4-B4D9E191852A}
+		{0CE54FB6-1F97-4D93-B81C-AAE50413E603} = {6BA1E13D-088D-45D7-9419-AC33F7B1D1C3}
+		{E5A069C7-7DDE-4728-A3D3-8CD5A04B366A} = {6BA1E13D-088D-45D7-9419-AC33F7B1D1C3}
+		{36BB798C-5150-4400-81B7-773B61D51F22} = {3598FBA3-8C1B-4A1D-A848-A99F6EA544CD}
+		{2E17390C-9D5A-4209-94F0-F665FE1876A0} = {3598FBA3-8C1B-4A1D-A848-A99F6EA544CD}
+		{55CB1B2C-13B0-4566-AA97-B847C111C69B} = {1998EFE5-46AB-4E0A-A658-80B17EB8E304}
+		{F0EF124D-2476-4F05-9AF2-CF68EC05C927} = {1998EFE5-46AB-4E0A-A658-80B17EB8E304}
+		{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD} = {2FA338BA-728C-4D56-9967-C1B9661F8D96}
+		{4CBE4AA6-1E4E-4943-8611-4A0A495076FE} = {2FA338BA-728C-4D56-9967-C1B9661F8D96}
+		{FDF03BCD-369F-45C5-8805-287D0823030B} = {5CEAE8AE-5B4C-46C9-B0DA-B456C406EA46}
+	EndGlobalSection
+	GlobalSection(SpecExplorer.ActivityCompletionStatus) = preSolution
+		SpecExplorer.ActivityCompletionStatus = TestExisting: ;ModelFromScratch: 
+	EndGlobalSection
+EndGlobal

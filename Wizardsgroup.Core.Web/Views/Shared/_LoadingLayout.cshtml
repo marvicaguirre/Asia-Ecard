@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+     @Scripts.Render("~/bundles/jqueryjs")
+</head>
+<body>
+    <div class="page"  style=" background-color:white">
+            <div  style="text-align:center; height:400px;filter: alpha(opacity=50)">
+               <img src="@Url.Content("~/Resources/Images/loading_circle.gif")" alt="loading..."  />
+            </div>
+   
+            <div id="main">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

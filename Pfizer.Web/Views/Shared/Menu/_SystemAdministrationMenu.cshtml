@@ -1,0 +1,8 @@
+﻿@using MIMS.Repository
+@using MedicardInformationManagementSystem.UI.Code.Helpers
+@using MedicardInformationManagementSystem.UI.Code.Helpers.Menu
+@using Wizardsgroup.Core.Web.Helpers.MenuHelper
+
+@(this.GenerateMenu(new AdministrationMenu(), new UnitOfWorkWrapper(),SecurityHelper.HasAccess))
+@(this.GenerateMenu(new SecurityMenu(), new UnitOfWorkWrapper(),SecurityHelper.HasAccess))
+

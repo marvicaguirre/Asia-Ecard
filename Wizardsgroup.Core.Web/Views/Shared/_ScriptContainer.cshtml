@@ -1,0 +1,20 @@
+﻿@using Wizardsgroup.Core.Web.Helpers
+
+    @Scripts.Render("~/bundles/modernizrjs")
+
+    @Scripts.Render("~/bundles/jqueryjs")
+    @Scripts.Render("~/bundles/jqueryuijs")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/kendojs")
+    @Scripts.Render("~/bundles/medicardjs")
+
+    <script src="@Url.Content("~/Resources/bootstrap/js/bootstrap.min.js")"></script>
+
+    <script src="@Url.Content("~/Resources/Scripts/console.min.js")"></script>
+
+    <script type="text/javascript">
+        _g_common_Applicationpath = '@(CommonHelper.Instance.ApplicationPath())';
+        _g_common_Virtualpath = '@(CommonHelper.Instance.VirtualDirectory())';
+        var imageUrl = "@(CommonHelper.Instance.GetNormalizedVirtualDir())/resources/content/themes/base/images/ui-icons_222222_256x240.png";
+        $('.ui-icon').css('background-image', 'url(' + imageUrl + ')');
+    </script>

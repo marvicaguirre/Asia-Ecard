@@ -1,0 +1,23 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.CardPrefixViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.ProgramId)
+        @Html.HiddenFor(model => model.CardPrefixId)
+
+        @Html.CustomLabelFor(model => model.ProgramId)
+        <div class="editor-field">
+             @Model.ProgramName
+        </div>        
+
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Name,250)
+        </div>
+    </fieldset>
+}

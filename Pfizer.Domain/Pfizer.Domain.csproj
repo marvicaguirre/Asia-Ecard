@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49C429A9-4066-4615-886C-2A273847F213}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pfizer.Domain</RootNamespace>
+    <AssemblyName>Pfizer.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\EntityLookupConstant.cs" />
+    <Compile Include="Constants\ParameterKeyConstant.cs" />
+    <Compile Include="Constants\SystemMessageConstant.cs" />
+    <Compile Include="Infrastructure\MaintenanceRegistrator.cs" />
+    <Compile Include="Interfaces\ViewModel\ICardPrefixViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\ICardTypeViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IClassViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IConversionFactorViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IDosageViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\ILogin.cs" />
+    <Compile Include="Interfaces\ViewModel\IProductViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IProgramViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IRegionViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\ISalesRetailPriceViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IUnitOfMeasureViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IUser.cs" />
+    <Compile Include="Interfaces\ViewModel\IUserGroup.cs" />
+    <Compile Include="Models\Maintenance\CardType.cs" />
+    <Compile Include="Models\Maintenance\City.cs" />
+    <Compile Include="Models\Maintenance\Class.cs" />
+    <Compile Include="Models\Maintenance\Team.cs" />
+    <Compile Include="Models\Maintenance\ConversionFactor.cs" />
+    <Compile Include="Models\Maintenance\CustomerMapping.cs" />
+    <Compile Include="Models\Maintenance\InstitutionType.cs" />
+    <Compile Include="Models\Maintenance\Province.cs" />
+    <Compile Include="Models\Maintenance\StoreArea.cs" />
+    <Compile Include="Models\Maintenance\StoreBranch.cs" />
+    <Compile Include="Models\Maintenance\StoreMain.cs" />
+    <Compile Include="Models\Maintenance\StoreMainType.cs" />
+    <Compile Include="Models\Maintenance\TargetType.cs" />
+    <Compile Include="Models\Request\Document.cs" />
+    <Compile Include="Models\Maintenance\DocumentType.cs" />
+    <Compile Include="Models\Maintenance\Dosage.cs" />
+    <Compile Include="Models\Maintenance\CardPrefix.cs" />
+    <Compile Include="Models\Maintenance\PriceType.cs" />
+    <Compile Include="Models\Maintenance\Product.cs" />
+    <Compile Include="Models\Maintenance\Program.cs" />
+    <Compile Include="Models\Maintenance\ProgramProductMapping.cs" />
+    <Compile Include="Models\Maintenance\SalesRetailPrice.cs" />
+    <Compile Include="Models\Maintenance\TerritorySalesConfiguration.cs" />
+    <Compile Include="Models\Maintenance\TerritorySalesConfigurationHistory.cs" />
+    <Compile Include="Models\Maintenance\UnitOfMeasure.cs" />
+    <Compile Include="Models\Request\DocumentProcessResult.cs" />
+    <Compile Include="Models\Request\Request.cs" />
+    <Compile Include="Models\Core\Company.cs" />
+    <Compile Include="Models\Core\EmployeeType.cs" />
+    <Compile Include="Interfaces\ViewModel\IUserGroupMap.cs" />
+    <Compile Include="Interfaces\ViewModel\ISystemMessageViewModel.cs" />
+    <Compile Include="Constants\ChangeModeConstant.cs" />
+    <Compile Include="Enumerations\ApprovalStatus.cs" />
+    <Compile Include="Enumerations\ApprovalType.cs" />
+    <Compile Include="Infrastructure\IRegistrator.cs" />
+    <Compile Include="Infrastructure\RegisterModuleFunctionContainer.cs" />
+    <Compile Include="Infrastructure\System.cs" />
+    <Compile Include="Interfaces\IActivityNotificationService.cs" />
+    <Compile Include="Interfaces\INotificationTypeService.cs" />
+    <Compile Include="Interfaces\ViewModel\ICityViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\IEmployee.cs" />
+    <Compile Include="Interfaces\ViewModel\IDepartment.cs" />
+    <Compile Include="Interfaces\ViewModel\IProvinceViewModel.cs" />
+    <Compile Include="Interfaces\ViewModel\ISystemSetting.cs" />
+    <Compile Include="Models\Core\ActivityNotification.cs" />
+    <Compile Include="Models\Core\Department.cs" />
+    <Compile Include="Models\Core\Employee.cs" />
+    <Compile Include="Interfaces\IHistoryAction.cs" />
+    <Compile Include="Models\Core\Notification.cs" />
+    <Compile Include="Models\Core\NotificationType.cs" />
+    <Compile Include="Models\Core\SystemMessage.cs" />
+    <Compile Include="Models\Core\SystemSetting.cs" />
+    <Compile Include="Models\Staging\DumpData.cs" />
+    <Compile Include="Models\Staging\TsstRaw.cs" />
+    <Compile Include="Models\SulitMD\SulitMedMd.cs" />
+    <Compile Include="Models\SulitMD\SulitMedMdProduct.cs" />
+    <Compile Include="Models\SulitMD\SulitMedProduct.cs" />
+    <Compile Include="Models\SulitMD\SulitMedTerritory.cs" />
+    <Compile Include="Models\Transaction\Institution.cs" />
+    <Compile Include="Models\Transaction\StoreMainHandlingFee.cs" />
+    <Compile Include="Models\Transaction\Target.cs" />
+    <Compile Include="Models\Transaction\TerritoryProductCardMapping.cs" />
+    <Compile Include="Models\User\User.cs" />
+    <Compile Include="Models\User\UserGroup.cs" />
+    <Compile Include="Models\User\UserGroupMap.cs" />
+    <Compile Include="Models\User\UserSession.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\AbstractBaseViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wizardsgroup.Core\Wizardsgroup.Core.csproj">
+      <Project>{fdf03bcd-369f-45c5-8805-287d0823030b}</Project>
+      <Name>Wizardsgroup.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Domain\Wizardsgroup.Domain.csproj">
+      <Project>{E3292097-6ABB-4A13-AAEF-138782D6D5D4}</Project>
+      <Name>Wizardsgroup.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Utilities\Wizardsgroup.Utilities.csproj">
+      <Project>{b2a3b98f-ee9c-4ff8-9f4e-b7ef98d9e8bd}</Project>
+      <Name>Wizardsgroup.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Partials\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

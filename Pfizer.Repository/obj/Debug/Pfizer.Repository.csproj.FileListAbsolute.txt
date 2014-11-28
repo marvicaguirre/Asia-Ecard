@@ -1,0 +1,161 @@
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\EntityFramework.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\EntityFramework.xml
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Repository\obj\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.xml
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Repository\obj\Debug\Pfizer.Repository.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\AutoMapper.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.xml
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\bin\Debug\AutoMapper.xml
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Repository\obj\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\EntityFramework.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\EntityFramework.xml
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Repository\obj\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\EntityFramework.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\EntityFramework.xml
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Repository\obj\Debug\Pfizer.Repository.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\EntityFramework.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\AutoMapper.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\EntityFramework.xml
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Pfizer\Main\Pfizer.Repository\bin\Debug\AutoMapper.xml
+C:\Projects\Pfizer\Main\Pfizer.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\Main\Pfizer.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Projects\Pfizer\Main\Pfizer.Repository\obj\Debug\Pfizer.Repository.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll.config
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Pfizer.Repository.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Pfizer.Repository.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\EntityFramework.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\AutoMapper.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Repository.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\EntityFramework.xml
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\bin\Debug\AutoMapper.xml
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\obj\Debug\Pfizer.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\obj\Debug\Pfizer.Repository.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Repository\obj\Debug\Pfizer.Repository.pdb

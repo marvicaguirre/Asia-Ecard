@@ -1,0 +1,20 @@
+﻿@*<div class="well sidebar-nav">
+    <ul class="nav nav-list">
+        <li class="activeX"> @Html.CustomLinkNewTab("Home", "Index", "Home", new { area = "" }, "Home", BootstrapIcon.Home) </li>
+
+        @Html.Partial("Menu/_GridSettingDropDownMenu")
+
+        @Html.Partial("Menu/_SystemDropDownMenu")
+
+        @Html.Partial("Menu/_BusinessDropDownMenu")
+
+        @Html.Partial("Menu/_ReferencesDropDownMenu")
+    </ul>
+    
+  
+</div>*@
+<div class="col col-lg-2">
+    <ul class="nav nav-stacked nav-pills">
+        @Html.Partial("Menu/_SystemAdministrationMenu")
+    </ul>
+</div>

@@ -1,0 +1,28 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.DosageViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.DosageId)
+        @Html.HiddenFor(model => model.ProductId)
+
+        @Html.CustomLabelFor(model => model.ProductName)
+        <div class="editor-field">
+            @Model.ProductName
+        </div>
+
+        @Html.CustomLabelFor(model => model.UniqueId)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.UniqueId,250)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextAreaBoxFor(model => model.Name,1000)
+        </div>
+    </fieldset>
+}

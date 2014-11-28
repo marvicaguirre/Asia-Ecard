@@ -1,0 +1,27 @@
+C:\Projects3\MedicardProject\MVC5\RuleEngine\bin\Debug\RuleEngine.dll
+C:\Projects3\MedicardProject\MVC5\RuleEngine\bin\Debug\RuleEngine.pdb
+C:\Projects3\MedicardProject\MVC5\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
+C:\Projects3\MedicardProject\MVC5\RuleEngine\obj\Debug\RuleEngine.dll
+C:\Projects3\MedicardProject\MVC5\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\MVC5\RuleEngine\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\MVC5\RuleEngine\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\MVC5\RuleEngine\obj\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\MVC5\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\Pfizer\RuleEngine\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\Pfizer\RuleEngine\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\Pfizer\RuleEngine\obj\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\Pfizer\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\Pfizer Update\RuleEngine\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\Pfizer Update\RuleEngine\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\Pfizer Update\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer Update\RuleEngine\obj\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\Pfizer Update\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Projects\Pfizer\Main\RuleEngine\bin\Debug\RuleEngine.dll
+C:\Projects\Pfizer\Main\RuleEngine\bin\Debug\RuleEngine.pdb
+C:\Projects\Pfizer\Main\RuleEngine\obj\Debug\RuleEngine.dll
+C:\Projects\Pfizer\Main\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\RuleEngine\bin\Debug\RuleEngine.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\RuleEngine\bin\Debug\RuleEngine.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\GitHub\Asia-Ecard\RuleEngine\obj\Debug\RuleEngine.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\RuleEngine\obj\Debug\RuleEngine.pdb

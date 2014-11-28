@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using Wizardsgroup.Core.Interface;
+using Wizardsgroup.Domain.Interfaces;
+using Wizardsgroup.Service.Factories;
+using Wizardsgroup.Utilities.Extensions;
+using Wizardsgroup.Utilities.Helpers;
+
+namespace Wizardsgroup.Service.Lookup
+{
+    public abstract class AbstractBaseLookup<T> : ILookupValueField, ILookupFunction where T : class,new()
+    {        
+        #region Members
+        protected readonly IRepository<T> Repository;
+        #endregion
+
+        #region Properties
+        public string Value
+        {
+            get
+            {
+                var memberExpression = (MemberExpression)GetValueFieldHelper().Body;
+                return memberExpression.Member.Name;
+            }
+        }
+        public string Text
+        {
+            get
+            {
+                var memberExpression = (MemberExpression)GetTextFieldHelper().Body;
+                return memberExpression.Member.Name;
+            }
+        }
+
+        internal ILookupService<T> LookupConverter
+        {
+            get
+            {                
+                return new LookupService<T>(new LookupDataFactory(ReflectionHelper.Instance),GetValueFieldHelper(),GetTextFieldHelper());
+            }
+        }
+        #endregion
+
+        #region Constructor
+        protected AbstractBaseLookup(IUnitOfWork unitOfWork)
+        {
+            
+            unitOfWork.Guard("IUnitOfWork must not be null");
+            Repository = unitOfWork.Repository<T>();
+        }    
+        #endregion  
+
+        #region Abstract Function/Methods
+        protected abstract IEnumerable<T> GetCascadeResultHelper(Guid id);
+        protected abstract Expression<Func<T, string>> GetTextFieldHelper();
+        protected abstract Expression<Func<T, Guid>> GetValueFieldHelper();
+        #endregion
+
+        #region Virtual Functions/Methods
+        protected virtual IQueryable<T> GetRecordsForLookupWorker()
+        {
+            var records = Repository.Query().FilterActive().GetResult();
+            return records;
+        }
+
+        protected IEnumerable<ILookupValueField> LookupDataResult(IEnumerable<T> records,
+            Func<IEnumerable<T>, IEnumerable<ILookupValueField>> convertFunction)
+        {
+            records = OverridableDefaultOrder(records);
+            var result = convertFunction(records);            
+            return result;
+        }
+        #endregion
+
+        public abstract IEnumerable<ILookupValueField> GetRecordsForLookup();
+
+        public abstract IEnumerable<ILookupValueField> GetRecordsForCascade(Guid id);
+
+        protected virtual IEnumerable<T> OverridableDefaultOrder(IEnumerable<T> arg)
+        {
+            return arg;
+        }
+    }
+}

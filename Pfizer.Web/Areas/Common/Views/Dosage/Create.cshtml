@@ -1,0 +1,31 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.DosageViewModel
+
+@{
+    int parentId;
+    int.TryParse(ViewBag.ProductId.ToString(), out parentId);
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>                
+        @Html.Hidden("ProductId", parentId)
+        
+        @Html.CustomLabelFor(model => model.ProductName)
+        <div class="editor-field">
+            @ViewBag.ProductName
+        </div>
+
+        @Html.CustomLabelFor(model => model.UniqueId)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.UniqueId, 250)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextAreaBoxFor(model => model.Name,1000)
+        </div>
+    </fieldset>
+}

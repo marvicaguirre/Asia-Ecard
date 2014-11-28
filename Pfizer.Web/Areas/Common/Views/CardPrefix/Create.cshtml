@@ -1,0 +1,26 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.CardPrefixViewModel
+
+@{
+    int parentId;
+    int.TryParse(ViewBag.ProgramId.ToString(), out parentId);
+    string programName = ViewBag.ProgramName.ToString();
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.Hidden("ProgramId", parentId)
+        @Html.CustomLabelFor(model => model.ProgramId)
+        <div class="editor-field">
+            @Html.Label(programName)
+        </div>
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Name,250)
+        </div>
+    </fieldset>
+}

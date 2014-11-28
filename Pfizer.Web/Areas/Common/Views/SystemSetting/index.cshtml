@@ -1,0 +1,38 @@
+﻿@using Pfizer.Domain.Models
+@using Wizardsgroup.Core.Web.Extensions
+<div id="divMaster" controltype="accordion">
+    @*<h3><span class="ui-dialog-title" id="ui-dialog-title-1">@ViewBag.Title</span></h3>      *@  
+    <div class="container">         
+        <div class="row row-padding-top-10 no-margin">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        @*<h3>@ViewBag.Title</h3>*@             
+                        @ViewBag.Title
+                    </div>
+                    <div class="panel-body">
+                        <div class="row row-padding-top-10">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                @Html.CustomGrid("SystemSettingGrid", "GetRecords", "SystemSetting", null, null)
+                            </div>
+                        </div>
+                        <div class="row row-padding-top-10">
+                            @*<div class="col-xs-1 col-md-1 col-lg-1">                                
+                                @Html.CustomButtonEntry("Add", "Create", "Title", "Create New Title", 400, 320, 100, "SystemSettingGrid")
+                            </div>
+                            <div class="col-xs-1 col-md-1 col-lg-1">
+                                @Html.CustomButtonDelete("Delete", "ConfirmItems", "DeleteItems", "Title", "Delete Title(s)", null, null, 100, "SystemSettingGrid")
+                            </div>
+                            <div class="col-xs-1 col-md-1 col-lg-1">
+                                @Html.CustomButtonToggle("Title","Toggle Title", 300, 300, 100, "SystemSettingGrid")
+                            </div>*@
+                            <div class="col-xs-10 col-md-10 col-lg-10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

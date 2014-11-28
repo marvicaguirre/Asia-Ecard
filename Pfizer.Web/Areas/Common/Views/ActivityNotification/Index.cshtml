@@ -1,0 +1,31 @@
+﻿@using Pfizer.Web.Areas.Common.ViewModels
+
+<div class="panel-heading">
+    Activity Notification
+</div>
+<div class="panel-body">
+    <div id="divNotificationsList">
+        @{ Html.RenderAction("Notifications"); }
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        RefreshNotifications();
+    });
+
+    // Temporary Refresher - To be set to RxJS
+    function RefreshNotifications() {
+        var seconds = 30;
+
+        var interval = null;
+        interval = setInterval(function () {
+            var url = '@Url.Action("Notifications")';
+
+            $("#divNotificationsList").load(url, function (response, status, xhr) {
+                if (status == "error") {
+                    clearInterval(interval);
+                }
+            });
+        }, 1000 * seconds);
+    }
+</script>

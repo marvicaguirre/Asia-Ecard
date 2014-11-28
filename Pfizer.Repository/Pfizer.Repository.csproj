@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36BB798C-5150-4400-81B7-773B61D51F22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pfizer.Repository</RootNamespace>
+    <AssemblyName>Pfizer.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientSeedController.cs" />
+    <Compile Include="Context\DescriptionUpdater.cs" />
+    <Compile Include="Context\IExternalSeeder.cs" />
+    <Compile Include="GridSettingData\CardPrefixGridData.cs" />
+    <Compile Include="GridSettingData\CardTypeGridData.cs" />
+    <Compile Include="GridSettingData\ConversionFactorGridData.cs" />
+    <Compile Include="GridSettingData\DosageGridData.cs" />
+    <Compile Include="GridSettingData\ProductGridData.cs" />
+    <Compile Include="GridSettingData\ProgramGridData.cs" />
+    <Compile Include="GridSettingData\ProgramProductGridData.cs" />
+    <Compile Include="GridSettingData\SalesRetailPriceGridData.cs" />
+    <Compile Include="GridSettingData\UnitOfMeasureGridData.cs" />
+    <Compile Include="GridSettingData\ClassGridData.cs" />
+    <Compile Include="GridSettingData\ProgramPerCardTypeGridData.cs" />
+    <Compile Include="GridSettingData\SystemMessageGridData.cs" />
+    <Compile Include="Context\ContextDropCreateDatabaseIfModelChangesInitializeSeeder.cs" />
+    <Compile Include="Context\CommonContextInitializer.cs" />
+    <Compile Include="Context\ContextInitializer.cs" />
+    <Compile Include="GridSettingData\DataDictionaryGridData.cs" />
+    <Compile Include="GridSettingData\DepartmentGrid.cs" />
+    <Compile Include="GridSettingData\EmployeeGrid.cs" />
+    <Compile Include="GridSettingData\RuleDatastoreGridData.cs" />
+    <Compile Include="GridSettingData\SystemSettingGridData.cs" />
+    <Compile Include="GridSettingData\UserGridData.cs" />
+    <Compile Include="GridSettingData\UserGroupFunctionGridData.cs" />
+    <Compile Include="GridSettingData\UserGroupGridData.cs" />
+    <Compile Include="GridSettingData\UserGroupMapGridData.cs" />
+    <Compile Include="Context\MainContext.cs" />
+    <Compile Include="History\AbstractHistoryInserter.cs" />
+    <Compile Include="History\HistoryFactory.cs" />
+    <Compile Include="History\HistoryInsertHandler.cs" />
+    <Compile Include="History\IHistoryInserter.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeedData\CentralFunctionSeeder.cs" />
+    <Compile Include="SeedData\CentralModuleSeeder.cs" />
+    <Compile Include="SeedData\CompanyClassificationSeeder.cs" />
+    <Compile Include="SeedData\CompanySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\CardTypeDataDictionarySeed.cs" />
+    <Compile Include="SeedData\DataDictionary\ClassDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\ConversionFactorDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\DosageDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\CardTypePrefixDataDistionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\ProductDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\ProgramDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\SalesRetailPriceDataDictionary.cs" />
+    <Compile Include="SeedData\DataDictionary\UnitOfMeasureDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\UserGroupDataDictionary.cs" />
+    <Compile Include="SeedData\DataDictionary\SystemMessageDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\EmployeeTypeSeeder.cs" />
+    <Compile Include="SeedData\ProcessSeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\UserDataDictionary.cs" />
+    <Compile Include="SeedData\DataDictionary\ApprovalProcessDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\ApprovalProcessLevelDataDictionarySeeder.cs" />
+    <Compile Include="SeedData\DataDictionary\DepartmentDataDictionary.cs" />
+    <Compile Include="SeedData\DepartmentSeeder.cs" />
+    <Compile Include="SeedData\EmployeeSeeder.cs" />
+    <Compile Include="SeedData\SystemMessageSeeder.cs" />
+    <Compile Include="SeedData\SystemSettingSeeder.cs" />
+    <Compile Include="SeederController.cs" />
+    <Compile Include="SeedData\UserGroupFuntionSeeder.cs" />
+    <Compile Include="SeedData\UserGroupMapSeeder.cs" />
+    <Compile Include="SeedData\UserGroupSeeder.cs" />
+    <Compile Include="SeedData\UserSeeder.cs" />
+    <Compile Include="SystemDefaultSeedController.cs" />
+    <Compile Include="UnitOfWorkWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pfizer.Domain\Pfizer.Domain.csproj">
+      <Project>{49c429a9-4066-4615-886c-2a273847f213}</Project>
+      <Name>Pfizer.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Domain\Wizardsgroup.Domain.csproj">
+      <Project>{e3292097-6abb-4a13-aaef-138782d6d5d4}</Project>
+      <Name>Wizardsgroup.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Repository\Wizardsgroup.Repository.csproj">
+      <Project>{2e17390c-9d5a-4209-94f0-f665fe1876a0}</Project>
+      <Name>Wizardsgroup.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Utilities\Wizardsgroup.Utilities.csproj">
+      <Project>{B2A3B98F-EE9C-4FF8-9F4E-B7EF98D9E8BD}</Project>
+      <Name>Wizardsgroup.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Core\Wizardsgroup.Core.csproj">
+      <Project>{fdf03bcd-369f-45c5-8805-287d0823030b}</Project>
+      <Name>Wizardsgroup.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

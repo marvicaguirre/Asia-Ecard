@@ -1,0 +1,14 @@
+﻿@(Html.Kendo().TabStrip()
+        .Name("medicard-tabstrip")
+        .HtmlAttributes(new { @class = "border-radius" })
+        .Items(tabstrip =>
+        {
+            tabstrip.Add().Text("Home")
+                .Selected(true)
+                .Content(@<text>
+                <iframe id="theFrame_1_0" marginheight="0" seamless="seamless" scrolling="auto" width="100%" height="520px"
+                    src='@Url.Content("~/Common/Home/Welcome")' ></iframe>
+                </text>);
+        })
+        .Animation(a => a.Enable(false))
+)

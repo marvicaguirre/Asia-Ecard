@@ -1,0 +1,133 @@
+﻿@using Pfizer.Domain.Constants
+@using Wizardsgroup.Core.Web.Extensions
+
+@model Pfizer.Web.Areas.Common.ViewModels.CreateAccountViewModel
+
+@using (Html.BeginForm("CreateAccount", "Account", FormMethod.Post, new { name = "CreateAccountForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        @Html.HiddenFor(model => model.PackageName)
+        <legend></legend>
+        <div id="divPackage" style="display:inline-block; width:100% ">
+            @if (Model.PackageList.Count() > 0)
+            {
+                for (int index = 0; index < Model.PackageList.Count(); index++)
+                {
+                    var packageName = Model.PackageList[index].Name;
+                    var packageDescription = Model.PackageList[index].Description;
+
+                    <div class="row divPackageOptions">
+                        <h3 class="packageName">@packageName</h3>
+                        <h5>@packageDescription</h5>
+                    </div>
+
+                }
+            }
+            else
+            {
+                <div>No Record found.</div>
+            }
+
+        </div>
+
+
+        <div id="divCreate" style="display:block; width:100% ">
+            @Html.CustomLabelFor(model => model.LastName)
+            <div class="editor-field">
+                @Html.CustomTextBoxFor(model => model.LastName)
+            </div>
+            @Html.CustomLabelFor(model => model.FirstName)
+            <div class="editor-field">
+                @Html.CustomTextBoxFor(model => model.FirstName)
+            </div>
+            @Html.CustomLabelFor(model => model.MiddleName)
+            <div class="editor-field">
+                @Html.CustomTextBoxFor(model => model.MiddleName)
+            </div>
+
+            @Html.CustomLabelFor(model => model.SuffixId)
+            <div class="editor-field">
+                @Html.CustomComboBoxFor(model => model.SuffixId, EntityLookupConstant.NameSuffix)
+            </div>
+
+            @Html.CustomLabelFor(model => model.EmailAddress)
+            <div class="editor-field">
+                @Html.CustomTextBoxFor(model => model.EmailAddress)
+            </div>
+
+            @Html.CustomLabelFor(model => model.ReEmailAddress)
+            <div class="editor-field">
+                @Html.CustomTextBoxFor(model => model.ReEmailAddress)
+            </div>
+
+            @Html.CustomLabelFor(model => model.DateOfBirth)
+            <div class="editor-field">
+                @Html.CustomDateTextBoxFor(model => model.DateOfBirth)
+            </div>
+
+            @Html.CustomLabelFor(model => model.GenderId)
+            <div class="editor-field">
+                @Html.CustomComboBoxFor(model => model.GenderId, EntityLookupConstant.Gender)
+            </div>
+
+        </div>
+    </fieldset>
+}
+
+<style type="text/css">
+    .divPackageOptions {
+        background-color: #d9edf7;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        color: #31708f;
+    }
+
+        .divPackageOptions:hover {
+            cursor: pointer;
+        }
+
+    .ui-dialog-buttonpane {
+        display: none;
+    }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //$('#ui-id-1').text('Select a Package');  // this is how will change the modal title
+        $('.ui-dialog-buttonset button:first-child').text('Continue');
+
+        getPremiumTypeName();
+
+
+        $(".divPackageOptions").click(function () {
+            $('#PackageName').val($(this).find('.packageName').html());
+            getPremiumTypeName();
+        });
+
+    });
+
+    function getPremiumTypeName() {
+        var divCreate = "#divCreate";
+        $(divCreate).hide();
+
+        var divPackage = "#divPackage";
+        $(divPackage).hide();
+
+        if ($('#PackageName').val() == '') {
+            $(divPackage).show();
+            $('.ui-dialog-buttonpane').hide();
+            $('#ui-id-1').text('Select a Package');
+        }
+        else {
+            $(divCreate).show();
+            $('.ui-dialog-buttonpane').show();
+
+            $('#ui-id-1').text('Create Account');
+        }
+    }
+
+
+
+</script>

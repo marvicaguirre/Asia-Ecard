@@ -1,0 +1,49 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.RuleDatastoreViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.RuleDatastoreId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Controller)
+        </div>
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Controller)            
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ControllerAction)
+        </div>
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.ControllerAction)            
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Field)
+        </div>
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Field)            
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RuleOperator)
+        </div>
+        <div class="editor-field">
+            @Html.CustomComboBoxWithCustomDataFor(o=>o.RuleOperator,"GetAvalaibleRules","RuleDatastore")
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Value)
+        </div>
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Value)         
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ValidationMessage)
+        </div>
+        <div class="editor-field">
+            @Html.CustomTextAreaBoxFor(model => model.ValidationMessage)         
+        </div>
+    </fieldset>
+}

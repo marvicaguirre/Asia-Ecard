@@ -1,0 +1,53 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@using Pfizer.Domain.Constants
+@model Pfizer.Web.Areas.Security.ViewModels.UserViewModel
+
+@using (Html.BeginForm()) {
+    
+        @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.UserId)                     
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EmployeeId)
+        </div>
+        <div class="editor-field">
+            @Html.CustomComboBoxFor(o=>o.EmployeeId,EntityLookupConstant.Employee)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.UserName)            
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserPassword)
+        </div>
+        <div class="editor-field">
+            @Html.Password("UserPassword")     
+        </div>
+
+        @* <div>
+            <p>User Group</p>
+            <br/>
+            @for(int index=0;index < Model.UserGroupItemList.Count();index++)
+           
+            {    
+                @Html.HiddenFor(x => x.UserGroupItemList[index].UserGroupId) 
+                @Html.HiddenFor(x => x.UserGroupItemList[index].UserGroupName) 
+                @Html.CheckBoxFor(x => x.UserGroupItemList[index].IsChecked) 
+                @Html.LabelFor(x => x.UserGroupItemList[index].IsChecked, Model.UserGroupItemList[index].UserGroupName) 
+                <br />
+            } 
+        </div>*@         
+    </fieldset>
+}
+@*<script>
+    $(function() {
+        $('#UserName').attr("disabled", "disabled");
+    });
+</script>*@

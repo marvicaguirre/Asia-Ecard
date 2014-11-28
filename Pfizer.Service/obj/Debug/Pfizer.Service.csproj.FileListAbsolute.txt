@@ -1,0 +1,252 @@
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\FluentValidation.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\FluentValidation.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\FluentValidation.xml
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\MVC5\MIMS.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Projects3\Pfizer\MVC5\MIMS.Service\obj\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Service\obj\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\FluentValidation.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\FluentValidation.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\FluentValidation.xml
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Pfizer.Service.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Pfizer.Service.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\FluentValidation.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Pfizer.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\RuleEngine.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\AutoMapper.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\RuleEngine.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\FluentValidation.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\FluentValidation.xml
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\AutoMapper.xml
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Service\obj\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\FluentValidation.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\FluentValidation.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\FluentValidation.xml
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\obj\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Service\obj\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Pfizer.Service.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\FluentValidation.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\RuleEngine.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\RuleEngine.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\FluentValidation.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\FluentValidation.xml
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\obj\Debug\Pfizer.Service.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Service\obj\Debug\Pfizer.Service.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Pfizer.Service.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Pfizer.Service.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\FluentValidation.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\RuleEngine.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\AutoMapper.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\RuleEngine.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\FluentValidation.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\FluentValidation.xml
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\AutoMapper.xml
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\Main\Pfizer.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Projects\Pfizer\Main\Pfizer.Service\obj\Debug\Pfizer.Service.dll
+C:\Projects\Pfizer\Main\Pfizer.Service\obj\Debug\Pfizer.Service.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Pfizer.Service.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Pfizer.Service.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\FluentValidation.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\FluentValidation.Mvc.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\RuleEngine.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Service.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\AutoMapper.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Service.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\RuleEngine.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\FluentValidation.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\FluentValidation.xml
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\FluentValidation.Mvc.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\AutoMapper.xml
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\obj\Debug\Pfizer.Service.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\obj\Debug\Pfizer.Service.csproj.ResolveComReference.cache
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\obj\Debug\Pfizer.Service.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Service\obj\Debug\Pfizer.Service.pdb

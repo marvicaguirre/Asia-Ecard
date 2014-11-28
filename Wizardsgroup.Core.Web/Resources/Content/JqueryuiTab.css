@@ -1,0 +1,48 @@
+﻿#dialog label, #dialog input {
+    display: block;
+}
+
+#dialog label {
+    margin-top: 0.5em;
+}
+
+#dialog input, #dialog textarea {
+    width: 98%;
+}
+
+#add_tab {
+    cursor: pointer;
+}
+
+
+#tabs_module {
+    padding: 0px;
+    font: 75% 'Lucida Sans Unicode','Lucida Grande',arial,helvetica,sans-serif;
+}
+
+    #tabs_module .ui-tabs-nav li {
+        margin-top: 0.2em;
+        font-size: 11px;
+    }
+
+#tabs-tabs_module .ui-tabs-nav li.ui-tabs-selected {
+    margin-top: 0em;
+    font-size: 11px;
+}
+
+#tabs {
+    margin-top: 1em;
+}
+
+#tabs_module li .ui-icon-close {
+    float: left;
+    margin: 0.4em 0.2em 0 0;
+    cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1.2em .5em;
+    background: none;
+}

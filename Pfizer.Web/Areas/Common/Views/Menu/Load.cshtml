@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoadingLayout.cshtml";
+}
+@using Wizardsgroup.Core.Web.Helpers
+@model System.String
+<script type="text/javascript">
+    var applicationPath = '@(CommonHelper.Instance.ApplicationPath())';
+    var modulePage = '@Html.Raw(Model)';
+    var url = (applicationPath + modulePage.toString());
+    window.location = url;
+</script>
+  
+     

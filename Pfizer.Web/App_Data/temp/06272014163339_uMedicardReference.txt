@@ -1,0 +1,35 @@
+rename uMedicard to MIMS
+
+1) Package Type
+2) Broker (simple with child)
+  -Account Officer (Agent)
+3) Account Type (simple)
+4) Company Type (simple)
+5) Size (simple)
+6) Labour Setup (simple)
+7) Category (simple)
+8) Nature Of Business (simple)
+9) Industry (simple)
+10) VAT (simple)
+11) Title (simple)
+12) Address Type (simple)
+13) Location (simple complex)
+ -Region
+ -Province
+ -City
+14) Document Type (simple)
+15) Franchise Expiry (simple)
+16) Not Allowed Search (simple)
+
+MTW
+-Jonald
+-Chris
+-Arnel
+-Allan (Code Review)
+
+WTF
+-Rom
+-Deni
+-Gumz
+
+-VM for SQL Server for backup plan

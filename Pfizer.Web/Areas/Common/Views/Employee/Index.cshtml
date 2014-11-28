@@ -1,0 +1,51 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+<div id="divMaster" controltype="accordion">
+    @*<h3><span class="ui-dialog-title" id="ui-dialog-title-1">@ViewBag.Title</span></h3>      *@  
+    <div class="container">         
+        <div class="row row-padding-top-10 no-margin">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        @*<h3>@ViewBag.Title</h3>*@             
+                        @ViewBag.Title
+                    </div>
+                    <div class="panel-body">
+                        <div class="row row-padding-top-10">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                @Html.CustomGrid("EmployeeGrid", "GetRecords", "Employee", null, null)
+                            </div>
+                        </div>
+                        <div class="row row-padding-top-10">
+                            <div class="col-xs-1 col-md-1 col-lg-1">                                
+                                @Html.CustomButtonEntry("Add", "Create", "Employee", "Create New Employee", 550, 630, 100, "EmployeeGrid")
+                            </div>
+                            <div class="col-xs-1 col-md-1 col-lg-1">
+                                @Html.CustomButtonDelete("Delete", "ConfirmItems", "DeleteItems", "Employee", "Delete Employees", 980, 440, 100, "EmployeeGrid")
+                            </div>
+                            @*<div class="col-xs-1 col-md-1 col-lg-1">
+                                @Html.CustomButtonToggle("Employee", "Toggle Employee(s)", 980, 440, 100, "EmployeeGrid")
+                            </div>*@
+                            <div class="col-xs-10 col-md-10 col-lg-10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script type="text/javascript">
+
+    var icons = {
+        header: "ui-icon-circle-arrow-e",
+        activeHeader: "ui-icon-circle-arrow-s"
+    };
+    //$("div[controltype=accordion] h3 ").css({ 'padding-left': '22px', 'font-size': '16px' });
+    $("div[controltype=accordion]").css({ 'padding-top': '5px' }).accordion({
+        collapsible: true,
+        heightStyle: "content",
+        clearStyle: true,
+        icons: icons
+    });
+</script>*@

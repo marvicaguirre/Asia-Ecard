@@ -1,0 +1,32 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.CardTypeViewModel
+
+@{
+    int parentId;
+    int.TryParse(ViewBag.ClassId.ToString(), out parentId);
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.Hidden("ClassId", parentId)
+
+        @Html.CustomLabelFor(model => model.ClassName)
+        <div class="editor-field">                        
+            @ViewBag.ClassName
+        </div>    
+        
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Name,250)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Description)
+        <div class="editor-field">
+            @Html.CustomTextAreaBoxFor(model => model.Description,1000)
+        </div>
+    </fieldset>
+}

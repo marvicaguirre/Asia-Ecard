@@ -1,0 +1,53 @@
+﻿@using Kendo.Mvc.Extensions
+@using Pfizer.Web.Areas.Common.ViewModels
+@using Pfizer.Web.Code.Helpers.Menu
+@using Pfizer.Domain.Infrastructure
+@using Wizardsgroup.Core.Web.Extensions
+@using Wizardsgroup.Core.Web.Helpers.MenuHelper
+
+@{
+    var registeredSecurityModuleFunctions = RegisterModuleFunctionContainer.Instance.Container;
+    var menuItems = new List<Wizardsgroup.Core.Web.Helpers.MenuHelper.MenuItem>();
+    var menuGenerators = new List<IMenuHelper>
+        {
+            new MaintenanceMenu(registeredSecurityModuleFunctions),
+            new SystemMenu(registeredSecurityModuleFunctions)
+        };
+
+    menuGenerators.ForEach(o => menuItems.AddRange(o.GetMenuItems()));
+
+    IEnumerable<ActivityNotificationViewModel> list = ViewBag.Notifications;
+
+    if (list != null)
+    {
+        <ul>
+            @foreach (var item in list)
+            {
+                if (item.Area.HasValue() && item.Controller.HasValue() && item.Action.HasValue())
+                {
+                    object rv = null;
+                    if (!item.RouteValues.HasValue())
+                    {
+                        rv = new { area = item.Area };
+                    }
+                    else
+                    {
+                        rv = new { area = item.Area, id = item.RouteValues };
+                    }
+
+                    <li>
+                        @{ var menuTabEntry = menuItems.FirstOrDefault(o => o.ControllerArea == item.Area && o.ControllerName == item.Controller && o.ControllerAction == item.Action); }
+                        @string.Format("[{0}]", item.Date)
+                        @(Html.CustomLinkNewTab(item.Message, item.Action, item.Controller, rv, menuTabEntry == null ? item.Controller : menuTabEntry.TabCaption))
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        [@(string.Format("{0:MM/dd/yyyy hh:mm:ss tt}", item.Date))] @item.Message
+                    </li>
+                }
+            }
+        </ul>
+    }
+}

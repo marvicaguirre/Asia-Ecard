@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    @Html.Partial("_StyleContainer")
+    @Html.Partial("_ScriptContainer")
+</head>
+<body>
+    <div id="body" style="padding-bottom:50px; width:100%;">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper clear-fix">
+            @RenderBody()            
+            @RenderSection("Scripts", required: false)
+        </section>
+    </div>
+</body>
+</html>
+

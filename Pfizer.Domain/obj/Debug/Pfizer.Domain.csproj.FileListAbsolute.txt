@@ -1,0 +1,91 @@
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\MIMS.Domain\obj\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\MVC5\Pfizer.Domain\obj\Debug\Pfizer.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\AutoMapper.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\bin\Debug\AutoMapper.xml
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Users\kevin.tan\Documents\1\MVC5\Pfizer.Domain\obj\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer\Pfizer.Domain\obj\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\AutoMapper.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\bin\Debug\AutoMapper.xml
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Projects3\Pfizer\Pfizer Update\Pfizer.Domain\obj\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\AutoMapper.dll
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects\Pfizer\Main\Pfizer.Domain\bin\Debug\AutoMapper.xml
+C:\Projects\Pfizer\Main\Pfizer.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\Main\Pfizer.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\Main\Pfizer.Domain\obj\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Pfizer.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\AutoMapper.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Wizardsgroup.Core.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Wizardsgroup.Domain.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\Wizardsgroup.Utilities.pdb
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\bin\Debug\AutoMapper.xml
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\obj\Debug\Pfizer.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\obj\Debug\Pfizer.Domain.dll
+C:\Projects\Pfizer\GitHub\Asia-Ecard\Pfizer.Domain\obj\Debug\Pfizer.Domain.pdb

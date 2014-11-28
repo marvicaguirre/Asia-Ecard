@@ -1,0 +1,29 @@
+﻿@using Wizardsgroup.Core.Web.Extensions
+@model Pfizer.Web.Areas.Common.ViewModels.DepartmentViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.CustomValidationSummary()
+    <fieldset>
+        <legend></legend>
+        @Html.HiddenFor(model => model.DepartmentId)
+
+
+        @Html.CustomLabelFor(model => model.Name)
+        <div class="editor-field">
+            @Html.CustomTextBoxFor(model => model.Name)
+        </div>
+
+        @Html.CustomLabelFor(model => model.Description)
+        <div class="editor-field">
+            @Html.CustomTextAreaBoxFor(model => model.Description)
+        </div>
+        
+        @Html.CustomLabelFor(model => model.IsSBD)
+        <div class="editor-field">
+            @Html.CheckBoxFor(model=>model.IsSBD)
+        </div>
+        <!--status?-->
+    </fieldset>
+}

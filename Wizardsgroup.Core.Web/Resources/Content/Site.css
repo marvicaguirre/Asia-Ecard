@@ -1,0 +1,623 @@
+﻿html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding-left:10px;
+    padding-right:10px;
+    height: 100%;
+}
+
+.body-flat-background
+{
+    background: #0072bc;
+}
+
+.gradient-background
+{
+    background: #87e0fd;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg3ZTBmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM2JSIgc3RvcC1jb2xvcj0iIzUzY2JmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNWFiZTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #87e0fd 0%, #53cbf1 36%, #05abe0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(36%,#53cbf1), color-stop(100%,#05abe0));
+    background: -webkit-linear-gradient(top,  #87e0fd 0%,#53cbf1 36%,#05abe0 100%);
+    background: -o-linear-gradient(top,  #87e0fd 0%,#53cbf1 36%,#05abe0 100%);
+    background: -ms-linear-gradient(top,  #87e0fd 0%,#53cbf1 36%,#05abe0 100%);
+    background: linear-gradient(to bottom,  #87e0fd 0%,#53cbf1 36%,#05abe0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+
+    }
+
+.panel-gradient
+{
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+    }
+
+
+header, footer, hgroup,
+nav, section {
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+header
+{
+    background-color: #0054A6;
+    height:50px;
+    margin-bottom: 15px;
+}
+#Document
+{
+    height:90%;
+    padding:10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#left-column
+{
+    padding-right:0;
+    }
+#right-column
+{
+    height:100%;
+}
+#main
+{
+    height:100%;
+}
+footer {
+    clear: both;
+    margin-top: -80px;
+    height: 30px;
+}
+.client-logo-image
+{
+    position: absolute;
+    top: 0;
+    /*width: 5%;*/
+    width: 48px;
+    height: 48px;
+    margin-left: -18px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #2890D9;
+    border-color: #2890D9;
+}
+
+@media (min-width: 992px)
+{
+    .container
+    {
+        /*max-width:1200px*/
+        max-width: 1000px;
+    }
+}
+.li-margin-left-neg10
+{
+    margin-left:-10px;
+    list-style-type:circle;
+}
+.no-margin
+{
+    margin-right:0px;
+    margin-left:0px;
+}
+.no-padding
+{
+    padding:0px;
+}
+.panel-heading-small
+{
+    margin:0px 0px 5px;
+    padding: 0px 5px;
+}
+.panel-margin-10
+{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.row-padding-top-10
+{
+    padding-top:10px;
+}
+.row-margin-5
+{
+    margin-top:3px;
+    margin-bottom:2px;
+}
+.panel-padding-5
+{
+    padding:5px;
+}
+.task-template-margin
+{
+    margin-left:3%;
+    margin-right:3%;
+}
+.width-100-percent
+{
+    width:100%;
+}
+.height-100-percent
+{
+    height:100%;
+}
+.k-tabstrip .k-content {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 768px;
+}
+.k-state-active
+{
+    /*height:92%;*/     
+}
+#dbwizard-tabstrip
+{
+    /*height:inherit;*/
+}
+
+.dbwizard-inline-block-display
+{
+    display:inline-block;
+}
+.dbwizard-btn-default
+{
+    float: right;
+}
+.box-shadow {
+    -webkit-box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+.border-radius
+{
+    border-radius:3px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: gold;
+}
+
+
+/*.nav-bar
+{
+    border-radius:0px;
+    box-shadow:rgba(128, 128, 128, .4), 5px, 5px, inset; 
+}
+
+
+.navbar-brand
+{
+    color: yellow;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color: goldenrod;
+}
+
+.navbar-inverse .navbar-brand {
+  color:goldenrod;
+}
+.navbar-inverse
+{
+    background-color:#0054A6;
+}*/
+
+.col-lg-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*.panel-heading {
+    padding: 5px;
+    background-color: #67B0E5;
+    font-weight: bold;
+}*/
+
+.navbar-inverse {
+    /*background-color: #024478;*/
+    /* background-image: url(/Resources/images/bg-spacer.jpg); */
+    -moz-background-size: 100% 100%; 
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-attachment: initial;
+    -moz-background-origin: border-box;
+    -webkit-background-origin: border-box;
+    background-origin: initial;
+    -moz-background-clip: initial;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    /*background-color: initial;*/
+    /*width: 112px;*/
+    height: 30px;
+}
+
+.panel {
+    margin-bottom: 3px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.panel-heading {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    background-color: inherit; /*#f5f5f5;*/
+    border-bottom: 0px solid #dddddd;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: initial;
+    font-weight: bold;
+}
+
+.panel-body {
+    padding: 0px 0px 0px 0px;
+}
+
+.col-xs-1 {
+    padding-left: 5px;
+    padding-right: 1px;
+}
+
+.col-lg-1 {
+    /*background-color: red;*/
+    /*width: 8.333333333333332%;*/
+    width: 100px;
+    float: left;
+}
+
+.ui-widget {
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.k-tabstrip-items .k-tab-on-top {
+    z-index: 0;
+}
+
+/* Noli: setup the visibility (and other attributes of the HTML elements) based on the size of the display (in decreasing order) */
+@media (max-width: 992px) {
+    .container {
+        /*font-weight: bolder;*/
+    }
+}
+
+@media (max-width: 767px) {
+    .k-pager-sizes {
+        position: absolute;
+        visibility: hidden;
+        /*color: green;*/
+    }
+
+    .col-xs-1 {
+        padding-left: 5px;
+        padding-right: 1px;
+    }
+
+    .k-grid-filter {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .k-pager-numbers {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .k-pager-info {
+        position: absolute;
+        visibility: hidden;
+        /*color: red;*/
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .k-pager-input {
+        position: absolute;
+        visibility: hidden;
+        /*color: sienna;*/
+    }
+}
+
+
+@media screen and (max-width: 290px) {
+    /*.k-pager-numbers {
+        position: absolute;
+        visibility: hidden;
+        
+    }*/
+
+    .k-pager-refresh {
+        position: absolute;
+        visibility: hidden;
+        /*color: blueviolet;*/
+    }
+}
+
+@media screen and (max-width: 180px) {
+    .k-pager-wrap {
+        visibility: hidden;
+    }
+
+    .k-grid-pager {
+        visibility: visible;
+        height: 30px;
+    }
+
+    .k-link {
+        position: absolute;
+        visibility: hidden;
+        /*color: gray;*/
+    } 
+}
+
+
+.dropdown-submenu {
+    position:relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+
+}
+
+.dropdown-submenu:hover>.dropdown-menu{
+    display:block;
+
+}
+
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+
+}
+
+.dropdown-submenu.pull-left{
+    float:none;
+
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu{
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+
+}
+
+.required-field label:after, .required-field:after{
+    color: red;
+    content: "*";
+}
+
+/*.required-field label::before, .required-field::before {
+    color: red;
+    content: "*";
+}*/
+
+.editor-label {
+    width:45%;
+    padding-left:10px;
+    padding-bottom:5px;
+    padding-right: 5px;
+    text-align:right;
+    display:inline-block;
+}
+
+.editor-label:after {
+    content: ":";
+}
+
+.editor-field {
+    width:45%;
+    padding-bottom:5px;
+    padding-bottom:5px;
+    display:inline-block;
+    font-weight:normal;
+}
+
+.editor-field:after {
+    content: ' ';
+    display: block;
+}
+
+.editor-label-header {
+    background-color:lightblue;
+    width:100%;
+    margin: 10px 10px 10px 0px;
+}
+
+.editor-label-header:after {
+    content: ' ';
+    display: block;
+}
+
+.left-entry-column {
+    float:left; 
+    width:60%; 
+    height:100%; 
+    top:0; 
+    left:0;
+}
+
+.right-entry-column {
+    float:right; 
+    width:40%; 
+    top:0; 
+    right:0;
+}
+
+.right-entry-column:after {
+    content: ' ';
+    display: block;
+}
+
+.single-line-fields > div
+{
+    display: inline-block;
+}
+
+.ui-dialog { z-index: 1000; }
+.ui-front { z-index: 1000; }
+
+.bordered-container {
+    border: 1px solid #000000;
+    margin: 10px 0;
+    padding: 2% 0 2% 5%;
+}
+
+#ProposalEligibility #AllowedOptions div {width: 100%;}
+#ProposalEligibility #AllowedOptions > div label {padding-left: 10px; vertical-align: top; width: 95% !important;}
+    
+#ProposalEligibility #ProposalEligibilityAgeLimitEnrollment {display: block;}
+#ProposalEligibility #ProposalEligibilityAgeLimitEnrollment label { float: left;padding-right: 7px;}
+#ProposalEligibility #ProposalEligibilityAgeLimitEnrollment.editor-field { width: 100%;}
+
+#ProposalEligibility #AllowedExtension { display: none;}
+#ProposalEligibility #AllowedExtension .editor-label  {width: 30%;}
+#ProposalEligibility #AllowedExtension .single-line-fields {width: 60%;}
+#ProposalEligibility #AllowedExtension .single-line-fields > div > span {width: 100%;}
+    
+#ProposalEligibility #AllowedAge {margin: 10px 0;}
+#ProposalEligibility #AllowedAge .editor-field.single-line-fields { width: 60%; }
+#ProposalEligibility #AllowedAge .single-line-fields > div > span { width: 100%;}
+#ProposalEligibility #AllowedAge .editor-label { width: 25%; }
+
+#ProposalEligibility #AllowedContinuousMembership .editor-label:after {content: "";}
+#ProposalEligibility .allowedMembershipSub div {vertical-align: top;}
+#ProposalEligibility #MembershipRetireeBasis { display: none; }
+#ProposalEligibility .principal, .dependent, .principal-dependent {display: none;}
+
+/*Member Effectivity section*/
+#ProposalEligibility .Complex,
+#ProposalEligibility .Simple,
+#ProposalEligibility #divEnrollmentTypeStandard,
+#ProposalEligibility #divEffectivityTypeStandard, 
+#ProposalEligibility #divAvailment {
+    display: none;
+}
+
+#ProposalEligibility #DifferentAvailmentDate label, 
+#ProposalEligibility #GracePeriodSilentAgreement label, 
+#ProposalEligibility #RetroactiveCoverage label {
+    float: left;
+    text-align: right;
+    width: 45%;
+}
+
+#ProposalEligibility #DifferentAvailmentDate input, 
+#ProposalEligibility #GracePeriodSilentAgreement input, 
+#ProposalEligibility #RetroactiveCoverage input {
+    margin-left: 5px;
+}
+
+#ProposalEligibility #DifferentAvailmentDate, 
+#ProposalEligibility #GracePeriodSilentAgreement, 
+#ProposalEligibility #RetroactiveCoverage, 
+#ProposalEligibility #divGracePeriod > div > span {
+    width: 100%;
+}
+
+#ProposalEligibility #divEnrollmentRange {
+    width: 50% !important;
+}
+
+#ProposalEligibility #divEnrollmentRange > span, #ProposalEligibility #divEnrollmentRange > div {
+    width: 70px;
+}
+
+#ProposalEligibility .Complex > div {
+    float: left;
+    text-align: center;
+    width: 15%;
+    padding-right: 5px;
+}
+
+#ProposalEligibility .basis {
+    display: inline-block;
+    width: 30% !important;
+}
+
+#ProposalEligibility .uom {
+    width: 25% !important;
+}
+
+#ProposalEligibility .Complex > div > input, 
+#ProposalEligibility .Complex > div > span {
+    width: 100%;
+}
+
+#ProposalEligibility #divEffectivityTypeStandard > div > span:first-child {
+    width: 70px;
+    margin-right: 10px;
+}
+
+#ProposalEligibility .small-checkboxes input {
+    width: 13px !important;
+}
+
+#ProposalEligibility .allowedMembershipSub .editor-field {
+    margin-top:10px;
+}
+/*member effectivity section end*/

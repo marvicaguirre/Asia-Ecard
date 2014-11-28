@@ -1,0 +1,8 @@
+﻿@using Wizardsgroup.Core.Web.Enums
+@using Wizardsgroup.Core.Web.Extensions
+<div class="well sidebar-nav">
+    <ul class="nav nav-list">
+        <li class="activeX"> @Html.CustomLinkNewTab("Home", "Index", "Home", new { area = "Common" }, "Home", BootstrapIcon.Home) </li>
+        @Html.Partial("_MainMenu")
+    </ul>      
+</div>

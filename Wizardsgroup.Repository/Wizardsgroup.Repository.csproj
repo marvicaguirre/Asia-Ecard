@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E17390C-9D5A-4209-94F0-F665FE1876A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wizardsgroup.Repository</RootNamespace>
+    <AssemblyName>Wizardsgroup.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractContext.cs" />
+    <Compile Include="AuditTrail\AbstractAuditAction.cs" />
+    <Compile Include="AuditTrail\AddedAuditTrail.cs" />
+    <Compile Include="AuditTrail\AuditTrailHandler.cs" />
+    <Compile Include="AuditTrail\DeletedAuditTrail.cs" />
+    <Compile Include="AuditTrail\IAuditActions.cs" />
+    <Compile Include="AuditTrail\ModifiedAuditTrail.cs" />
+    <Compile Include="DatabaseInitializerMode.cs" />
+    <Compile Include="Factories\DataDictionaryFactory.cs" />
+    <Compile Include="Factories\GridSchemaFactory.cs" />
+    <Compile Include="GridSchemaBuilder\ActionLink\GridSettingActionLinkBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\ActionLink\IGridSettingActionLinkBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\Base\AbstractSpecificGridColumnBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\ActionLinkCellWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\CheckboxCellWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\Base\CommonGridDataSchema.cs" />
+    <Compile Include="GridSchemaBuilder\Base\GridCellWidthContainer.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\GridColumnWidthSpecifier.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\IGridCellWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\LinkDetailCellWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\ModalCellWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\RegualarCellWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\Base\WidthHandler\StatusHeaderNameWidthHandler.cs" />
+    <Compile Include="GridSchemaBuilder\FluentGridSchemaRegistrator.cs" />
+    <Compile Include="GridSchemaBuilder\GridSchemaCollectionRegistrator.cs" />
+    <Compile Include="GridSchemaBuilder\GridSchemaContainer.cs" />
+    <Compile Include="GridSchemaBuilder\GridSchemaRegistrator.cs" />
+    <Compile Include="GridSchemaBuilder\GridSchemaRegistratorVisitor.cs" />
+    <Compile Include="GridSchemaBuilder\Checkbox\GridSettingCheckboxBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\Base\GridSettingDataBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\GridSettingDataBuilderWrapper.cs" />
+    <Compile Include="GridSchemaBuilder\LinkDetail\GridSettingLinkDetailBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\LinkModal\GridSettingLinkModalBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\RegularCell\GridSettingRegularCellBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\IBuildGridSchema.cs" />
+    <Compile Include="GridSchemaBuilder\IFluentGridSchemaRegistrator.cs" />
+    <Compile Include="GridSchemaBuilder\IGridSchemaCollectionRegistrator.cs" />
+    <Compile Include="GridSchemaBuilder\IGridSchemaContainer.cs" />
+    <Compile Include="GridSchemaBuilder\IGridSchemaRegistrator.cs" />
+    <Compile Include="GridSchemaBuilder\IGridSchemaRegistratorContainer.cs" />
+    <Compile Include="GridSchemaBuilder\Base\IGridSettingBuilderWrapper.cs" />
+    <Compile Include="GridSchemaBuilder\Checkbox\IGridSettingCheckboxBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\Base\IGridSettingDataBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\Base\IGridSettingDataBuilderWrapper.cs" />
+    <Compile Include="GridSchemaBuilder\LinkDetail\IGridSettingLinkDetailBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\LinkModal\IGridSettingLinkModalBuilder.cs" />
+    <Compile Include="GridSchemaBuilder\RegularCell\IGridSettingRegularCellBuilder.cs" />
+    <Compile Include="IContext.cs" />
+    <Compile Include="DataDictionaryBuilder\AbstractDataDictionarySeeder.cs" />
+    <Compile Include="DataDictionaryBuilder\DataDictionarySeederController.cs" />
+    <Compile Include="DataDictionaryBuilder\DataDictionaryBuilder.cs" />
+    <Compile Include="DataDictionaryBuilder\FieldDictionary.cs" />
+    <Compile Include="DataDictionaryBuilder\IDataDictionaryBuilder.cs" />
+    <Compile Include="DataDictionaryBuilder\IDataDictionaryCollection.cs" />
+    <Compile Include="DataDictionaryBuilder\IDataDictionarySeeder.cs" />
+    <Compile Include="DataDictionaryBuilder\IFieldDictionary.cs" />
+    <Compile Include="DataDictionaryBuilder\IModuleDictionary.cs" />
+    <Compile Include="DataDictionaryBuilder\ModuleDictionary.cs" />
+    <Compile Include="IDataSeeder.cs" />
+    <Compile Include="ModuleComparer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="RepositoryQuery.cs" />
+    <Compile Include="UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wizardsgroup.Core\Wizardsgroup.Core.csproj">
+      <Project>{fdf03bcd-369f-45c5-8805-287d0823030b}</Project>
+      <Name>Wizardsgroup.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Domain\Wizardsgroup.Domain.csproj">
+      <Project>{e3292097-6abb-4a13-aaef-138782d6d5d4}</Project>
+      <Name>Wizardsgroup.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizardsgroup.Utilities\Wizardsgroup.Utilities.csproj">
+      <Project>{b2a3b98f-ee9c-4ff8-9f4e-b7ef98d9e8bd}</Project>
+      <Name>Wizardsgroup.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

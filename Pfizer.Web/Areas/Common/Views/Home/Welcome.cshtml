@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "";
+    @Html.Partial("_StyleContainer")
+    @Html.Partial("_ScriptContainer")    
+}
+
+<div id="divMaster"></div>
+<div class="col-xs-12 col-md-12 col-lg-12">
+    <div class="panel">
+        <div class="panel-body">
+            @*@if (modelIsNotNull)
+            {
+                *@<div>
+                    <h4>
+                        <p>
+                            Welcome!
+                                <br />
+                            @ViewBag.UserName<br />
+                            Your last login was: @DateTime.Now.ToString("MM/dd/yyyy hh:mm  tt")
+                        </p>
+                    </h4>
+                </div>
+                <div>
+
+                </div>
+            <div style="z-index: 10; position: absolute; top: 0; right: 0; padding-right: 10px; padding-top: 5px;">
+                @Html.ActionLink(" ", "Welcome", "Home", null, new { title = "Refresh", style = "width: 50px; height: 50px; background:url('" + @Url.Content("~/Resources/Images/refresh.jpg") + "') no-repeat center; background-size: cover; display:block;" })
+            </div>
+
+        </div>
+    </div>
+
+    @Html.Action("Index", "ActivityNotification")
+</div>
+
+

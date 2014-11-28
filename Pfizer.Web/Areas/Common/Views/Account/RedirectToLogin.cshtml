@@ -1,0 +1,10 @@
+﻿@using Wizardsgroup.Core.Web.Helpers
+@{
+    var virtualDir = CommonHelper.Instance.GetNormalizedVirtualDir();
+}
+<script>
+    //this is used to redirect to parent level
+    $(function () {
+        window.top.location.href = "@(virtualDir)/Common/Account/Login";
+    });
+ </script>
